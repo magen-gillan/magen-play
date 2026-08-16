@@ -31,22 +31,56 @@ async function startServer() {
   const app = express();
   const server = createServer(app);
 
-  // Enable CORS for all routes - reflect the request origin to support credentials
+  const configuredCorsOrigins = new Set(
+    [
+      process.env.CORS_ORIGINS,
+      process.env.EXPO_WEB_PREVIEW_URL,
+      process.env.EXPO_PACKAGER_PROXY_URL,
+    ]
+      .flatMap((value) => (value ?? "").split(","))
+      .map((value) => value.trim())
+      .filter(Boolean)
+      .map((value) => {
+        try {
+          return new URL(value).origin;
+        } catch {
+          return value;
+        }
+      }),
+  );
+
+  const isAllowedCorsOrigin = (origin: string) => {
+    if (configuredCorsOrigins.has(origin)) return true;
+    try {
+      const parsed = new URL(origin);
+      return (
+        (parsed.protocol === "http:" || parsed.protocol === "https:") &&
+        ["localhost", "127.0.0.1", "[::1]"].includes(parsed.hostname)
+      );
+    } catch {
+      return false;
+    }
+  };
+
   app.use((req, res, next) => {
     const origin = req.headers.origin;
     if (origin) {
+      if (!isAllowedCorsOrigin(origin)) {
+        res.status(403).json({ error: "Origin is not allowed" });
+        return;
+      }
       res.header("Access-Control-Allow-Origin", origin);
+      res.header("Vary", "Origin");
+      res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+      res.header(
+        "Access-Control-Allow-Headers",
+        "Origin, X-Requested-With, Content-Type, Accept, Authorization",
+      );
+      res.header("Access-Control-Allow-Credentials", "true");
     }
-    res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
-    res.header(
-      "Access-Control-Allow-Headers",
-      "Origin, X-Requested-With, Content-Type, Accept, Authorization",
-    );
-    res.header("Access-Control-Allow-Credentials", "true");
 
-    // Handle preflight requests
     if (req.method === "OPTIONS") {
-      res.sendStatus(200);
+      res.sendStatus(204);
       return;
     }
     next();
@@ -70,7 +104,8 @@ async function startServer() {
     }),
   );
 
-  const preferredPort = parseInt(process.env.PORT || "3000");
+  const parsedPort = Number.parseInt(process.env.PORT || "3000", 10);
+  const preferredPort = Number.isInteger(parsedPort) && parsedPort > 0 && parsedPort < 65_536 ? parsedPort : 3000;
   const port = await findAvailablePort(preferredPort);
 
   if (port !== preferredPort) {

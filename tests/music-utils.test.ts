@@ -14,4 +14,14 @@ describe("music utilities", () => {
     expect(formatDuration(0)).toBe("0:00");
     expect(formatDuration(185)).toBe("3:05");
   });
+
+  it("falls back safely for non-finite duration values", () => {
+    expect(formatDuration(Number.NaN)).toBe("0:00");
+    expect(formatDuration(Number.POSITIVE_INFINITY)).toBe("0:00");
+    expect(normalizeLoop({ startMs: Number.NaN, endMs: Number.POSITIVE_INFINITY, repeatCount: 1 }, 60_000)).toEqual({
+      startMs: 0,
+      endMs: 60_000,
+      repeatCount: 1,
+    });
+  });
 });

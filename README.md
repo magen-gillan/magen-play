@@ -19,6 +19,8 @@ pnpm dev
 pnpm check
 pnpm lint
 pnpm test
+pnpm build
+pnpm build:web
 ```
 
 ## المزايا الظاهرة

@@ -30,6 +30,7 @@ const MAPPING = {
   "pause.fill": "pause",
   "play.fill": "play-arrow",
   "repeat": "repeat",
+  "scissors": "content-cut",
   "xmark": "close",
   "checkmark.circle.fill": "check-circle",
 } as unknown as IconMapping;
