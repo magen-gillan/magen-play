@@ -18,7 +18,21 @@ const MAPPING = {
   "paperplane.fill": "send",
   "chevron.left.forwardslash.chevron.right": "code",
   "chevron.right": "chevron-right",
-} as IconMapping;
+  "music.note.list": "library-music",
+  "gearshape.fill": "settings",
+  "magnifyingglass": "search",
+  "music-note": "music-note",
+  "graphic-eq": "graphic-eq",
+  "album": "album",
+  "wb-sunny": "wb-sunny",
+  "headphones": "headphones",
+  "ellipsis": "more-horiz",
+  "pause.fill": "pause",
+  "play.fill": "play-arrow",
+  "repeat": "repeat",
+  "xmark": "close",
+  "checkmark.circle.fill": "check-circle",
+} as unknown as IconMapping;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
