@@ -48,7 +48,7 @@ export default function HomeScreen() {
       <View style={styles.header}>
         <View>
           <Text style={[styles.eyebrow, { color: colors.muted }]}>مكتبتك المحلية</Text>
-          <Text style={[styles.title, { color: colors.foreground }]}>استوديو الموسيقى</Text>
+          <Text style={[styles.title, { color: colors.foreground }]}>magen-play</Text>
         </View>
         <Pressable onPress={() => setSheet("settings")} style={({ pressed }) => [styles.iconButton, { backgroundColor: colors.surface }, pressed && styles.pressed]}>
           <IconSymbol name="gearshape.fill" size={22} color={colors.foreground} />
