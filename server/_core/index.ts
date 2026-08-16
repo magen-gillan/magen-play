@@ -28,6 +28,17 @@ async function findAvailablePort(startPort: number = 3000): Promise<number> {
 }
 
 async function startServer() {
+  const isProduction = process.env.NODE_ENV === "production";
+  const requiredProductionEnv = ["OAUTH_SERVER_URL", "JWT_SECRET"];
+  const missingProductionEnv = isProduction
+    ? requiredProductionEnv.filter((key) => !process.env[key])
+    : [];
+  if (missingProductionEnv.length > 0) {
+    throw new Error(
+      `Missing required production environment variables: ${missingProductionEnv.join(", ")}`,
+    );
+  }
+
   const app = express();
   const server = createServer(app);
 
@@ -71,7 +82,10 @@ async function startServer() {
       }
       res.header("Access-Control-Allow-Origin", origin);
       res.header("Vary", "Origin");
-      res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+      res.header(
+        "Access-Control-Allow-Methods",
+        "GET, POST, PUT, DELETE, OPTIONS",
+      );
       res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept, Authorization",
@@ -86,8 +100,8 @@ async function startServer() {
     next();
   });
 
-  app.use(express.json({ limit: "50mb" }));
-  app.use(express.urlencoded({ limit: "50mb", extended: true }));
+  app.use(express.json({ limit: "10mb" }));
+  app.use(express.urlencoded({ limit: "10mb", extended: true }));
 
   registerStorageProxy(app);
   registerOAuthRoutes(app);
@@ -105,7 +119,10 @@ async function startServer() {
   );
 
   const parsedPort = Number.parseInt(process.env.PORT || "3000", 10);
-  const preferredPort = Number.isInteger(parsedPort) && parsedPort > 0 && parsedPort < 65_536 ? parsedPort : 3000;
+  const preferredPort =
+    Number.isInteger(parsedPort) && parsedPort > 0 && parsedPort < 65_536
+      ? parsedPort
+      : 3000;
   const port = await findAvailablePort(preferredPort);
 
   if (port !== preferredPort) {
@@ -117,4 +134,7 @@ async function startServer() {
   });
 }
 
-startServer().catch(console.error);
+startServer().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});

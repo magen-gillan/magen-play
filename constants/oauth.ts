@@ -1,11 +1,8 @@
 import * as Linking from "expo-linking";
 import * as ReactNative from "react-native";
 
-// Extract scheme from bundle ID (last segment timestamp, prefixed with "manus")
-// e.g., "space.manus.my.app.t20240115103045" -> "manus20240115103045"
-const bundleId = "com.app.fossmusicstudio";
-const timestamp = bundleId.split(".").pop()?.replace(/^t/, "") ?? "";
-const schemeFromBundleId = `manus${timestamp}`;
+// Keep the deep-link scheme stable across builds so installed clients can return from OAuth.
+const schemeFromBundleId = "magenplay";
 
 const env = {
   portal: process.env.EXPO_PUBLIC_OAUTH_PORTAL_URL ?? "",
@@ -36,7 +33,11 @@ export function getApiBaseUrl(): string {
   }
 
   // On web, derive from current hostname by replacing port 8081 with 3000
-  if (ReactNative.Platform.OS === "web" && typeof window !== "undefined" && window.location) {
+  if (
+    ReactNative.Platform.OS === "web" &&
+    typeof window !== "undefined" &&
+    window.location
+  ) {
     const { protocol, hostname } = window.location;
     // Pattern: 8081-sandboxid.region.domain -> 3000-sandboxid.region.domain
     const apiHostname = hostname.replace(/^8081-/, "3000-");
@@ -79,10 +80,16 @@ export const getRedirectUri = () => {
 };
 
 export const getLoginUrl = () => {
+  if (!OAUTH_PORTAL_URL || !APP_ID) {
+    throw new Error(
+      "OAuth is not configured: set EXPO_PUBLIC_OAUTH_PORTAL_URL and EXPO_PUBLIC_APP_ID.",
+    );
+  }
+
   const redirectUri = getRedirectUri();
   const state = encodeState(redirectUri);
-
-  const url = new URL(`${OAUTH_PORTAL_URL}/app-auth`);
+  const normalizedPortalUrl = OAUTH_PORTAL_URL.replace(/\/+$/, "");
+  const url = new URL("/app-auth", `${normalizedPortalUrl}/`);
   url.searchParams.set("appId", APP_ID);
   url.searchParams.set("redirectUri", redirectUri);
   url.searchParams.set("state", state);

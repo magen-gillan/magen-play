@@ -13,6 +13,8 @@
     "check": "tsc --noEmit",
     "lint": "expo lint",
     "format": "prettier --write .",
+    "format:check": "prettier --check README.md app.config.ts 'app/(tabs)/index.tsx' constants/oauth.ts app/oauth/callback.tsx hooks/use-auth.ts lib/music-utils.ts package.json server/_core/index.ts tests/music-utils.test.ts todo.md components/dev/theme-lab.tsx lib/_core/auth.ts design.md",
+    "audit:prod": "pnpm audit --prod --audit-level=high",
     "test": "vitest run",
     "db:push": "drizzle-kit generate && drizzle-kit migrate",
     "android": "expo start --android",
