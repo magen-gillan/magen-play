@@ -1,0 +1,114 @@
+# Phonograph Plus
+
+<p align="center">
+    <img src= "fastlane/metadata/android/en-US/images/icon.png" alt="ICON" height="120"/>
+</p>
+
+[English](./README.md) |
+[简体中文](./README_ZH.md)
+<br/>
+
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://github.com/chr56/Phonograph_Plus/blob/release/LICENSE.txt)
+[![DownloadsStatistics](https://img.shields.io/github/downloads/chr56/Phonograph_Plus/total)](https://github.com/chr56/Phonograph_Plus/releases)
+[![Crowdin](https://badges.crowdin.net/phonograph-plus/localized.svg)](https://crowdin.com/project/phonograph-plus)
+
+[![Stable Release Building Status](https://img.shields.io/github/actions/workflow/status/chr56/Phonograph_Plus/stable_release.yml?label=Stable%20Channel%20building)](https://github.com/chr56/Phonograph_Plus/actions/workflows/stable_release.yml)
+[![Preview Release Building Status](https://img.shields.io/github/actions/workflow/status/chr56/Phonograph_Plus/preview_release.yml?label=Preview%20Channel%20building)](https://github.com/chr56/Phonograph_Plus/actions/workflows/preview_release.yml)
+[![Dev CI Building Status](https://img.shields.io/github/actions/workflow/status/chr56/Phonograph_Plus/dev.yml?label=Dev%20building)](https://github.com/chr56/Phonograph_Plus/actions/workflows/dev.yml)
+
+
+**A revived classic material designed music player for Android**
+
+Phonograph Plus is a light-weighted offline music player for Android. 
+
+It is an independent, actively maintained fork of [Phonograph](https://github.com/kabouzeid/Phonograph), which been no longer actively maintained after 2020 and has been archived in 2023. 
+Phonograph Plus has been in maintenance and development since 2021. 
+It retains most of Phonograph's original features and familiar user interface while adding new capabilities and enhancements for better user experience. 
+Its underlying codebase has been modernized for development as well.
+
+## **Downloads**
+
+[<img src="https://img.shields.io/github/v/release/chr56/phonograph_plus?label=Github%20Releases" alt="Github%20Release">](https://github.com/chr56/Phonograph_Plus/releases/latest)
+[<img src="https://img.shields.io/github/v/release/chr56/phonograph_plus?label=Github%20Releases%20(Latest)&include_prereleases" alt="Github%20Release%20(Latest)">](https://github.com/chr56/Phonograph_Plus/releases/)
+[<img src="https://img.shields.io/f-droid/v/player.phonograph.plus?label=F-droid" alt="F-droid">](https://f-droid.org/packages/player.phonograph.plus/)
+
+> [!IMPORTANT]
+> After 2027 worldwide (or Sept 2026 for some countries), you may have some difficulties when installing Phonograph Plus on devices with enforced Play Protect. 
+> We may stop releasing installable APK artifacts but only source code in 2027. 
+> See [Android Developer Verification](./docs/Version_Guide.md#android-developer-verification) for details.
+
+Phonograph Plus is available on GitHub Releases (Stable Channel and Preview Channel[^1]) and F-Droid[^2] (Stable Channel). 
+For descriptions on different version variants, please see [Version Guide](./docs/Version_Guide.md).
+
+[^1]: Package name of Preview version has suffix of `preview`. 
+
+[^2]: Reproducible Builds are enabled on F-droid, APKs from F-droid shall be exactly equivalent to ones from GitHub Releases, byte by byte.
+
+## **Screenshots**
+See [Gallery](docs/Gallery.md)
+
+## **Features**
+
+Phonograph Plus inherits most all features from [Phonograph](https://github.com/kabouzeid/Phonograph). Here is a notable feature list:
+
+If you're familiar with original Phonograph, please see [Additional Features or Enhancements Compared to Original Phonograph](./docs/Feature_Comparison.md).
+
+- Light weight
+- Offline and privacy without advisement
+- Classic Material Design 2
+- Night mode (Light, Dark, Black) supporting automatically switching, with an optional alternate night color scheme
+- Customizable theme color (primary, accent) with Monet support
+- Foundational audio playing function (including speed control, sleep timer and equalizer externally provided by system)
+- Flexible queue management (shuffle, repeat, freely rearrange by dragging, queue snapshots)
+- Lyrics support (both synchronized .lrc lyrics and text lyrics, embed or external)
+- Flexible playback notifications that are highly customizable
+- Flexible music organization, organized by songs, artist, albums, genres and folders (flatten or treed), ordered by various orders, with multiple selection support, viewed in grid or list with various layout style
+- Multiple artists and genres parsing, with customizable separators
+- Flexible main player user interface that are highly customizable
+- Android Auto support
+- Highly customizable behaviours for clicking
+- Path filter (excluded mode or included mode)
+- Search support
+- Favorite songs support
+- File Playlist support (viewing and basic editing; also pin-able)
+- Internal Database Playlist support, including export and pinning
+- Optional play history and frequency record, last added songs by flexible time intervals
+- Enhanced audio metadata viewer and tag editor
+- App shortcut and widgets, with dark mode support
+- Multiple source of artwork
+- Backup support of settings and data
+- In-app language switch
+- ...
+
+It is suggested to browser the [Changelog](https://phonographplus.github.io/changelogs/changeslogs/changelog.html) to
+view all recent changes, improvements and new features.
+
+## **Translation**
+
+Translate Phonograph Plus into your language -> [Crowdin](https://crowdin.com/project/phonograph-plus)
+
+We have removed Bulgarian, Croatian, Swedish and Norwegian Nynorsk translations due to missing too much.
+
+## **Trouble Shooting & FAQ**
+
+[Trouble Shooting & FAQ](docs/FAQ.md)
+
+## **Development**
+
+### Build & Development
+
+[Build_Instructions.md](docs/Build_Instructions.md)
+
+[Developer Guide](docs/Developer_Guide.md)
+
+### Development Plan
+
+[Road Map](docs/Road_Map.md)
+
+## **Repository Mirrors**
+
+[![GitHub](https://img.shields.io/badge/Git-Github-Blue)](https://github.com/chr56/Phonograph_Plus/)
+[![Codeberg](https://img.shields.io/badge/Git-Codeberg-Blue)](https://codeberg.org/PhonographPlus/Phonograph_Plus)
+[![BitBucket](https://img.shields.io/badge/Git-BitBucket-Blue)](https://bitbucket.org/phonograph-plus/phonograph_plus/)
+
+**Only** these three sites above are considered as official Git Repositories (mirroring each other), all the other are non-official.
