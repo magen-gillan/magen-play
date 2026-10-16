@@ -1,0 +1,23 @@
+version: "2.0.3-dev1"
+channel: "STABLE"
+versionCode: 20002
+timestamp: 1791100000
+
+warning:
+  en: |
+    We have changed the signing key since v2.0.0. You have to _uninstall first_ before upgrading.
+    However, if your device runs Android 9 and higher, you can install `IntermediaRelease` variants to transit smoothly without uninstalling first.
+  zh: |
+    自 2.0.0 版本起，我们使用了新的签名密钥；更新前需要先卸载再安装；
+    但是，若设备运行 Android 9 及其以上，可安装带有 `IntermediaRelease` 的安装包，则可无需卸载即可迁到新签名密钥！
+
+notes:
+  en:
+    items:
+      - "Development: build with AGP 9.4.1, update dependencies"
+  zh:
+    items:
+      - "开发 使用 AGP 9.2.1 构建, 更新依赖"
+
+previousVersion: "2.0.2"
+previousChannel: "STABLE"
