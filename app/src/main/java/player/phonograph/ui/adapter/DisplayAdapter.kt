@@ -1,0 +1,186 @@
+/*
+ *  Copyright (c) 2022~2025 chr_56
+ */
+
+package player.phonograph.ui.adapter
+
+import coil.request.Disposable
+import com.simplecityapps.recyclerview_fastscroll.views.FastScrollRecyclerView
+import player.phonograph.mechanism.coil.palette.PaletteColorViewTarget
+import player.phonograph.model.ui.ItemLayoutStyle
+import player.phonograph.ui.resource.Layouts
+import player.phonograph.ui.theme.secondaryTextColorOn
+import player.phonograph.ui.theme.textColorOn
+import player.phonograph.ui.theme.themeFooterColor
+import player.phonograph.ui.theme.themeIconColor
+import androidx.fragment.app.FragmentActivity
+import androidx.recyclerview.widget.RecyclerView
+import android.annotation.SuppressLint
+import android.graphics.PorterDuff
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.ImageView
+
+
+open class DisplayAdapter<I>(
+    val activity: FragmentActivity,
+    var presenter: DisplayPresenter<I>,
+    allowMultiSelection: Boolean = true,
+    stableId: Boolean = true,
+) : RecyclerView.Adapter<DisplayAdapter.DisplayViewHolder<I>>(),
+    FastScrollRecyclerView.SectionedAdapter,
+    IMultiSelectableAdapter<I> {
+
+
+    var dataset: List<I> = emptyList()
+        set(value) {
+            field = value
+            @SuppressLint("NotifyDataSetChanged")
+            notifyDataSetChanged()
+        }
+
+    init {
+        setHasStableIds(stableId)
+    }
+
+    protected val controller: MultiSelectionController<I> =
+        MultiSelectionController(this, activity, allowMultiSelection)
+
+    override fun getItemId(position: Int): Long = presenter.getItemID(dataset[position])
+    override fun getItem(datasetPosition: Int): I = dataset[datasetPosition]
+
+    override fun getItemCount(): Int = dataset.size
+
+    override fun getItemViewType(position: Int): Int = presenter.layoutStyle.ordinal
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DisplayViewHolder<I> {
+        val itemLayout = Layouts.itemLayoutStyle(ItemLayoutStyle.from(viewType))
+        val view = LayoutInflater.from(activity).inflate(itemLayout, parent, false)
+        return DisplayViewHolder(view)
+    }
+
+
+    override fun onBindViewHolder(holder: DisplayViewHolder<I>, position: Int) {
+        holder.bind(dataset[position], position, dataset, presenter, controller)
+    }
+
+    override fun getSectionName(position: Int): String =
+        if (presenter.showSectionName) getSectionNameImp(position) else ""
+
+    open fun getSectionNameImp(position: Int): String {
+        val item = dataset[position]
+        val sortMode = presenter.getSortOrderKey(activity)
+        val text = if (sortMode != null) {
+            presenter.getSortOrderReference(item, sortMode)
+        } else {
+            presenter.getNonSortOrderReference(item)
+        }
+        return text ?: "-"
+    }
+
+    fun setMultiSelectionEnabled(value: Boolean) {
+        controller.enable = value
+    }
+
+    open class DisplayViewHolder<I>(itemView: View) : UniversalMediaEntryViewHolder(itemView) {
+
+        open fun bind(
+            item: I,
+            position: Int,
+            dataset: List<I>,
+            presenter: DisplayPresenter<I>,
+            controller: MultiSelectionController<I>,
+        ) {
+
+            // Text
+            title?.text = presenter.getDisplayTitle(itemView.context, item)
+            text?.text = presenter.getDescription(itemView.context, item)
+            textSecondary?.text = presenter.getSecondaryText(itemView.context, item)
+            textTertiary?.text = presenter.getTertiaryText(itemView.context, item)
+
+            // Decorations
+            shortSeparator?.visibility = View.VISIBLE
+            itemView.isActivated = isSelected(item, controller)
+
+            // Click
+            val clickActionProvider = presenter.clickActionProvider
+            controller.registerClicking(itemView, position) {
+                clickActionProvider.listClick(dataset, position, itemView.context, image)
+            }
+
+            // Menu
+            val menuButtonView = menu
+            val menuProvider = presenter.menuProvider
+            if (menuButtonView != null) {
+                if (menuProvider != null) {
+                    menuButtonView.visibility = View.VISIBLE
+                    menuButtonView.setOnClickListener {
+                        menuProvider.prepareMenu(menuButtonView, item, position)
+                    }
+                } else {
+                    menuButtonView.visibility = View.GONE
+                }
+            }
+
+            // Image
+            loadImage(item, presenter.imageType, image, presenter)
+        }
+
+        protected open fun loadImage(
+            item: I,
+            imageType: Int,
+            imageView: ImageView?,
+            presenter: DisplayPresenter<I>,
+        ) {
+            when (imageType) {
+                DisplayPresenter.IMAGE_TYPE_FIXED_ICON -> {
+                    val icon = presenter.getIcon(itemView.context, item)
+                    if (imageView != null) {
+                        imageView.visibility = View.VISIBLE
+                        imageView.setColorFilter(themeIconColor(itemView.context), PorterDuff.Mode.SRC_IN)
+                        imageView.setImageDrawable(icon)
+                    }
+                }
+
+                DisplayPresenter.IMAGE_TYPE_IMAGE      -> {
+                    if (imageView != null) {
+                        image?.visibility = View.VISIBLE
+                        loadJob?.dispose()
+                        loadJob = presenter.startLoadingImage(
+                            itemView.context, item,
+                            PaletteColorViewTarget(
+                                imageView,
+                                ::setPaletteColors,
+                                themeFooterColor(itemView.context),
+                                presenter.usePalette
+                            )
+                        )
+                    }
+                }
+
+                DisplayPresenter.IMAGE_TYPE_TEXT       -> {
+                    val ordinalText = presenter.getRelativeOrdinalText(item) ?: "-"
+                    imageText?.visibility = View.VISIBLE
+                    imageText?.text = ordinalText
+                }
+            }
+        }
+
+        protected open fun setPaletteColors(color: Int) {
+            paletteColorContainer?.let { paletteColorContainer ->
+                val context = itemView.context
+                val textColor = textColorOn(context, color)
+                val secondaryTextColor = secondaryTextColorOn(context, color)
+                paletteColorContainer.setBackgroundColor(color)
+                title?.setTextColor(textColor)
+                text?.setTextColor(secondaryTextColor)
+                textSecondary?.setTextColor(secondaryTextColor)
+                textTertiary?.setTextColor(secondaryTextColor)
+            }
+        }
+
+        open fun isSelected(item: I, controller: MultiSelectionController<I>): Boolean = controller.isSelected(item)
+
+        private var loadJob: Disposable? = null
+    }
+}
