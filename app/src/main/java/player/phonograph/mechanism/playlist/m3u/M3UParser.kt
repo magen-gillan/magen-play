@@ -1,0 +1,21 @@
+/*
+ * Copyright (c) 2022~2023 chr_56
+ */
+
+package player.phonograph.mechanism.playlist.m3u
+
+import java.io.InputStream
+import java.nio.charset.StandardCharsets
+
+object M3UParser {
+
+    fun readForPaths(inputStream: InputStream): List<String> {
+        return inputStream.reader(StandardCharsets.UTF_8).use { reader ->
+            // Accept all non-empty, non-comment lines (absolute AND relative paths)
+            reader.readLines()
+                .map { it.trim() }
+                .filterNot { it.isEmpty() || it.startsWith('#') }
+        }
+    }
+
+}
