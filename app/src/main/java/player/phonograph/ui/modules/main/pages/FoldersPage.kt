@@ -276,7 +276,13 @@ class FoldersPage : AbsPanelPage() {
 
     private fun refreshFolderIcons() {
         if (::songCollectionDisplayAdapter.isInitialized) {
-            songCollectionDisplayAdapter.dataset = viewModel.folders.value
+            // Create a NEW list instance so the adapter's dataset setter
+            // detects the change and calls notifyDataSetChanged().
+            // Also, reloading from viewModel ensures any folderKey changes
+            // are picked up. Using toList() creates a new list reference.
+            songCollectionDisplayAdapter.dataset = viewModel.folders.value.toList()
+            // Force image reload by invalidating Coil cache for folder items
+            coil.Coil.imageLoader(requireContext()).memoryCache?.clear()
         }
     }
     //endregion
