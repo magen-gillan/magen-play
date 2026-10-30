@@ -1,0 +1,7 @@
+upload/
+download/
+*.apk
+build/
+.gradle/
+.kotlin/
+local.properties
