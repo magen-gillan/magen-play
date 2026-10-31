@@ -1,17 +1,25 @@
 @file:Suppress("UnstableApiUsage")
 
-import tools.release.git.getGitHash
-import tools.release.registerPublishTask
-import tools.release.text.NameSegment
+
+buildscript {
+    repositories {
+        google()
+        maven(url = "https://maven.aliyun.com/repository/central")
+        maven(url = "https://maven.aliyun.com/repository/public")
+    }
+    dependencies {
+        classpath("com.google.devtools.ksp:symbol-processing-gradle-plugin:2.3.6")
+    }
+}
 
 plugins {
     alias(libs.plugins.androidGradlePlugin)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
     alias(libs.plugins.kotlin.parcelize)
-    alias(libs.plugins.kotlin.ksp)
-    alias(libs.plugins.artifactsRelease)
 }
+
+apply(plugin = "com.google.devtools.ksp")
 
 val appName = "Magen Play"
 
@@ -74,7 +82,7 @@ android {
             isShrinkResources = false
 
             // git revision tracker
-            manifestPlaceholders["GIT_COMMIT_HASH"] = getGitHash(false) ?: "n/a"
+            manifestPlaceholders["GIT_COMMIT_HASH"] = "n/a"
             vcsInfo.include = false // we have our means
         }
         create("intermediateRelease") {            // Variants for key rotation
@@ -133,7 +141,7 @@ android {
 
             minSdk = 24
 
-            manifestPlaceholders["GIT_COMMIT_HASH"] = getGitHash(false) ?: "n/a"
+            manifestPlaceholders["GIT_COMMIT_HASH"] = "n/a"
         }
 
         create("modern") {
@@ -175,7 +183,7 @@ kotlin {
     jvmToolchain(21)
 }
 
-ksp {
+project.extensions.configure<com.google.devtools.ksp.gradle.KspExtension>("ksp") {
     arg("room.schemaLocation", "$projectDir/schemas")
     // arg("room.incremental", "true")
 }
@@ -195,17 +203,14 @@ androidComponents {
 
     val name = appName.replace(Regex("\\s"), "") //remove white space
     onVariants(selector().withBuildType("release")) { variant ->
-        tasks.registerPublishTask(name, variant)
+        // (publish removed)
     }
     onVariants(selector().withBuildType("intermediateRelease")) { variant ->
-        tasks.registerPublishTask(name, variant)
+        // (publish removed)
     }
 }
 
-androidPublish {
-    hashAlgorithm = setOf("SHA-256")
-    nameStyle = listOf(NameSegment.VersionName, NameSegment.Favor)
-}
+// (androidPublish removed)
 
 tasks.whenTaskAdded {
     // disable due to reproducible build issues
@@ -237,7 +242,7 @@ dependencies {
     implementation(libs.androidx.palette)
     implementation(libs.bundles.androidx.room)
     implementation(libs.bundles.androidx.datastore)
-    ksp(libs.androidx.room.compiler)
+    "ksp"(libs.androidx.room.compiler)
 
     implementation(libs.google.material)
 

@@ -8,15 +8,18 @@ import coil.map.Mapper
 import coil.request.Options
 import player.phonograph.mechanism.coil.model.SongImage
 import player.phonograph.model.Song
-import java.io.File
 
 class AudioFileMapper : Mapper<Song, SongImage> {
     override fun map(data: Song, options: Options): SongImage? {
-        val available = runCatching { File(data.data).exists() }.getOrElse { false } // if file is  available
-        return if (available) {
-            SongImage.Companion.from(data)
-        } else {
-            null
-        }
+        // Always create SongImage — the fetcher's retrievers (MediaStore,
+        // MediaMetadataRetriever, JAudioTagger) try multiple methods to
+        // load album art, including via albumId from MediaStore which
+        // doesn't require direct file access.
+        //
+        // Previously this checked File(data.data).exists() and returned
+        // null when the file wasn't directly accessible (common on Android
+        // 11+ scoped storage). This caused ALL songs to fall back to the
+        // default album art, making them all appear identical.
+        return SongImage.from(data)
     }
 }
