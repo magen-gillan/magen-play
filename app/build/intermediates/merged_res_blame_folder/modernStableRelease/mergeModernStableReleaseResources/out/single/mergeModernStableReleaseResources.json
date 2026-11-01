@@ -1,0 +1,862 @@
+[
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xhdpi_default_artist_image.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xhdpi/default_artist_image.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_card_land.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_card_land.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_playlist_detail.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_playlist_detail.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_pin_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_pin_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_icon.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_icon.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_check.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_check.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_info_outline_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_info_outline_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_recycler_view_wrapped_proper.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/recycler_view_wrapped_proper.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_preference_dialog_now_playing_screen.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/preference_dialog_now_playing_screen.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_github_circle_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_github_circle_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_queue_music_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_queue_music_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_queue.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_queue.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_nav_back_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_nav_back_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v26_ic_app_shortcut_background.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v26/ic_app_shortcut_background.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_favorite_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_favorite_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_sdcard_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_sdcard_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_send_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_send_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_close_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_close_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-mdpi_default_artist_image.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable-mdpi/default_artist_image.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_upgrade_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_upgrade_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_favorite_border_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_favorite_border_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list_3l.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list_3l.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxhdpi_default_artist_image.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxhdpi/default_artist_image.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-anydpi-v26_ic_launcher_vector.xml.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-anydpi-v26/ic_launcher_vector.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_edit_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_edit_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_music_note_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_music_note_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_fast_forward_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_fast_forward_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_simple.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_simple.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_round_selector_light.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/round_selector_light.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list_single_row.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list_single_row.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_shuffle_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_shuffle_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_widget_selector_dark.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/widget_selector_dark.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_grid_card_horizontal.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_grid_card_horizontal.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_round_selector_dark.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/round_selector_dark.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_locales_config.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/locales_config.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_search.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_search.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/menu_menu_search.xml.flat",
+        "source": "player.phonograph.app-main-71:/menu/menu_search.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_navigation_drawer_header.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/navigation_drawer_header.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_notification_selector.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/notification_selector.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_flag_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_flag_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_timer_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_timer_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_playlist_add_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_playlist_add_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_app_widget_classic_info.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/app_widget_classic_info.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_display_page_status.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_display_page_status.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_restore_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_restore_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_file_music_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_file_music_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_app_widget_small.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable/app_widget_small.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_intro.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_intro.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_right_checkbox.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_right_checkbox.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_album_cover.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_album_cover.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_card_portrait.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_card_portrait.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_app_widget_small.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/app_widget_small.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_rect_selector_strong_auto.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/rect_selector_strong_auto.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_access_time_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_access_time_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxxhdpi_ic_notification.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxxhdpi/ic_notification.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_cleaning_bucket_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_cleaning_bucket_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_notification.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/notification.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-hdpi_default_artist_image.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable-hdpi/default_artist_image.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_preference_now_playing_screen_item.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/preference_now_playing_screen_item.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_keyboard_arrow_right_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_keyboard_arrow_right_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_repeat_off_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_repeat_off_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_shadow_down.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/shadow_down.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_more_vert_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_more_vert_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-mdpi_default_album_art.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-mdpi/default_album_art.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_repeat_one_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_repeat_one_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_card_special_thanks.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/card_special_thanks.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_card_square.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_card_square.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_grid.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_grid.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_event_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_event_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v26_ic_app_shortcut_last_added.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v26/ic_app_shortcut_last_added.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_person_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_person_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_about.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_about.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_round_selector_auto.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/round_selector_auto.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_sortable.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_sortable.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_album_cover.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_album_cover.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_fast_rewind_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_fast_rewind_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_scan_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_scan_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_mini_player.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_mini_player.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_notifications_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_notifications_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v26_ic_app_shortcut_shuffle_all.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v26/ic_app_shortcut_shuffle_all.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_display_page.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_display_page.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_lyrics.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_lyrics.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_notification_big.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/notification_big.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_app_widget_big.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable/app_widget_big.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_app_widget_classic.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/app_widget_classic.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_intro_slide_setting.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_intro_slide_setting.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_redo_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_redo_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_repeat_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_repeat_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_playback_controls_classic.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_playback_controls_classic.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-night-v21_rect_selector_auto.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-night-v21/rect_selector_auto.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-hdpi_default_album_art.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-hdpi/default_album_art.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxhdpi_default_album_art.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxhdpi/default_album_art.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_slider_thumb.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/slider_thumb.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_skip_previous_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_skip_previous_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_layout_search_box.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/layout_search_box.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_crash.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_crash.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_library_music_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_library_music_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_popup_window_search.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/popup_window_search.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_report_issue.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_report_issue.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_round_selector_mask.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/round_selector_mask.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_menu_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_menu_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_folder_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_folder_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_app_widget_classic.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable/app_widget_classic.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_tune_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_tune_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_artist_detail.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_artist_detail.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list_3l_no_image.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list_3l_no_image.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_rect_selector_auto.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/rect_selector_auto.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_round_selected_dark.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/round_selected_dark.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_card_author_modifier.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/card_author_modifier.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_bookmark_music_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_bookmark_music_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_search_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_search_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_assignment_turned_in_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_assignment_turned_in_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xhdpi_default_album_art.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xhdpi/default_album_art.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v26_ic_app_shortcut_top_tracks.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v26/ic_app_shortcut_top_tracks.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_card_author.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/card_author.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_album_detail.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_album_detail.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_speed_control.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_speed_control.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_app_widget_small_info.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/app_widget_small_info.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_card.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/card.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxhdpi_ic_drag_vertical_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxhdpi/ic_drag_vertical_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_playback_controls_flat.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_playback_controls_flat.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_trending_up_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_trending_up_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-night-v21_rect_selector_strong_auto.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-night-v21/rect_selector_strong_auto.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_shadow_down_strong.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/shadow_down_strong.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_bug_report_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_bug_report_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_rect_selector_light.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/rect_selector_light.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_star_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_star_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_flat_portrait.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_flat_portrait.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_stub_toolbar.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/stub_toolbar.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_palette_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_palette_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxxhdpi_icon_web.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxxhdpi/icon_web.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_refresh_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_refresh_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxxhdpi_default_artist_image.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxxhdpi/default_artist_image.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_add_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_add_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_round_selected.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/round_selected.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_app_widget_card_info.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/app_widget_card_info.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_home.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_save_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_save_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_genre_detail.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_genre_detail.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_automotive_app_desc.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/automotive_app_desc.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_app_widget_card.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/app_widget_card.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_pause_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_pause_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_album_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_album_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_about_content.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_about_content.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_delete_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_delete_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_sliding_music_panel_layout.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/sliding_music_panel_layout.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_rename_playlist.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_rename_playlist.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_flat_square.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_flat_square.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_email_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_email_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_open_in_browser_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_open_in_browser_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list_no_image.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list_no_image.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_recycler_view_wrapped.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/recycler_view_wrapped.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_widget_selector_light.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/widget_selector_light.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_library_add_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_library_add_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_sleep_timer.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_sleep_timer.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-night-v21_round_selector_auto.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-night-v21/round_selector_auto.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_player_flat_land.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_player_flat_land.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_popup_window_main.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/popup_window_main.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_text.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_text.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_main_drawer.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_main_drawer.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_provider_paths.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/provider_paths.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_developer_mode_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_developer_mode_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_shuffle_disabled_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_shuffle_disabled_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_shadow_up_strong.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/shadow_up_strong.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_create_playlist.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_create_playlist.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_rect_selector_strong_light.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/rect_selector_strong_light.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_volume_up_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_volume_up_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_description_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_description_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_shadow_up.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/shadow_up.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_rect_selector_dark.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/rect_selector_dark.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_file_page.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_file_page.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_activity_main_content.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/activity_main_content.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_expand_less_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_expand_less_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_play_arrow_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_play_arrow_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_card_support_development.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/card_support_development.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_lyrics.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_lyrics.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/xml_app_widget_big_info.xml.flat",
+        "source": "player.phonograph.app-main-71:/xml/app_widget_big_info.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-xxxhdpi_default_album_art.png.flat",
+        "source": "player.phonograph.app-main-71:/drawable-xxxhdpi/default_album_art.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_app_widget_big.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/app_widget_big.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_fragment_file_explore.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/fragment_file_explore.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list_3l_extended.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list_3l_extended.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_help_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_help_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_theme_switch_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_theme_switch_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_toolbar_gradient.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/toolbar_gradient.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_comment_text_outline_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_comment_text_outline_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_card_about_app.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/card_about_app.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_sort_variant_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_sort_variant_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_twitter_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_twitter_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_dialog_web_view.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/dialog_web_view.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_status_bar.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/status_bar.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_select_all_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_select_all_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_settings_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_settings_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_app_widget_card.webp.flat",
+        "source": "player.phonograph.app-main-71:/drawable/app_widget_card.webp"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable_ic_skip_next_white_24dp.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable/ic_skip_next_white_24dp.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_list_extended.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_list_extended.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "player.phonograph.app-main-71:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/drawable-v21_rect_selector_strong_dark.xml.flat",
+        "source": "player.phonograph.app-main-71:/drawable-v21/rect_selector_strong_dark.xml"
+    },
+    {
+        "merged": "player.phonograph.app-modernStableRelease-70:/layout_item_dropdown.xml.flat",
+        "source": "player.phonograph.app-main-71:/layout/item_dropdown.xml"
+    }
+]

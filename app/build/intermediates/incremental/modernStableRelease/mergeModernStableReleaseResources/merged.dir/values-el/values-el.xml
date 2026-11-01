@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d νέα ειδοποίηση</item>
+    <item quantity="other">%d νέες ειδοποιήσεις</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Πλοήγηση στην αρχική σελίδα"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Πλοήγηση προς τα επάνω"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Περισσότερες επιλογές"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Τέλος"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Εμφάνιση όλων"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Επιλέξτε μια εφαρμογή"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"ΑΠΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ΕΝΕΡΓΟΠΟΙΗΣΗ"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"διάστημα"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Αναζήτηση…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Διαγραφή ερωτήματος"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Ερώτημα αναζήτησης"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Αναζήτηση"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Υποβολή ερωτήματος"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Φωνητική αναζήτηση"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Κοινοποίηση σε"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Κοινοποίηση στην εφαρμογή <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Σύμπτυξη"</string>
+    <string name="about_aidan_follestad_summary">Για την μηχανή θεμάτων και κάποια άλλα ωραία πράγματα.</string>
+    <string name="about_aleksandar_tesic_summary">Για την βοήθειά του στον σχεδιασμό.</string>
+    <string name="about_author">Εκδότης</string>
+    <string name="about_donate">Δωρεά</string>
+    <string name="about_follow_on_twitter">Ακολουθήστε στο Twitter</string>
+    <string name="about_maarten_corpel_summary">Για την δημιουργία της εικονογράφησης του Play Store και του άδειου εξώφυλλου του άλμπουμ.</string>
+    <string name="about_michael_cook_summary">Για το όμορφο material εικονίδιο της εφαρμογής.</string>
+    <string name="about_report_bugs">Αναφορά σφαλμάτων</string>
+    <string name="about_report_bugs_summary">Αναφέρετε σφάλματα ή ζητείστε νέα χαρακτηριστικά.</string>
+    <string name="about_special_thanks_to">Ιδιαίτερες ευχαριστίες προς</string>
+    <string name="about_support_development">Υποστηρίξτε την ανάπτυξη της εφαρμογής</string>
+    <string name="about_translate">Μεταφράστε</string>
+    <string name="about_translate_summary">Βοηθήστε την μετάφραση του Magen Play στη μητρική σας γλώσσα.</string>
+    <string name="about_version">Έκδοση</string>
+    <string name="about_visit_website">Επισκεφθείτε την ιστοσελίδα μας</string>
+    <string name="accent_color">Χρώμα χαρακτήρων</string>
+    <string name="accent_color_desc">Το χρώμα των χαρακτήρων του θέματος είναι ροζ.</string>
+    <string name="action_about">Σχετικά με</string>
+    <string name="action_add_to_favorites">Προσθήκη στα αγαπημένα</string>
+    <string name="action_add_to_playing_queue">Προσθήκη στη σειρά τραγουδιών</string>
+    <string name="action_add_to_playlist">Προσθήκη στην λίστα αναπαραγωγής</string>
+    <string name="action_cancel_current_timer">Ακύρωση τρέχοντος χρονοδιακόπτη</string>
+    <string name="action_clear">Εκκαθάρηση</string>
+    <string name="action_clear_playing_queue">Εκκαθάριση της ουράς αναπαραγωγής</string>
+    <string name="action_create">Δημιουργία</string>
+    <string name="action_delete">Διαγραφή</string>
+    <string name="action_delete_from_device">Διαγραφή από την συσκευή</string>
+    <string name="action_details">Λεπτομέρειες </string>
+    <string name="action_go_to_album">Πήγαινε στο άλμπουμ</string>
+    <string name="action_go_to_artist">Πήγαινε στον καλλιτέχνη</string>
+    <string name="action_grant">Χορήγησε</string>
+    <string name="action_new_playlist">Νέα λίστα αναπαραγωγής...</string>
+    <string name="action_next">Επόμενο</string>
+    <string name="action_play">Αναπαραγωγή</string>
+    <string name="action_play_next">Επόμενο</string>
+    <string name="action_play_pause">Αναπαραγωγή/Παύση</string>
+    <string name="action_previous">Προηγούμενο</string>
+    <string name="action_remove">Αφαίρεση</string>
+    <string name="action_remove_cover">Αφαιρέστε το εξώφυλλο</string>
+    <string name="action_remove_from_favorites">Αφαίρεση από τα αγαπημένα</string>
+    <string name="action_remove_from_playing_queue">Διαγραφή από την σειρά τραγουδιών</string>
+    <string name="action_remove_from_playlist">Αφαίρεση από την λίστα</string>
+    <string name="action_rename">Μετονομασία</string>
+    <string name="action_save_playing_queue">Αποθήκευση της σειράς αναπαραγωγής</string>
+    <string name="action_save_playlist">Αποθήκευση ως αρχείο</string>
+    <string name="action_save_playlists">Αποθήκευση ως αρχεία</string>
+    <string name="action_scan">Σάρωση</string>
+    <string name="action_search">Αναζήτηση</string>
+    <string name="action_send_bug_report">Χειροκίνητη αποστολή</string>
+    <string name="action_set">Ορίστε</string>
+    <string name="action_set_as_ringtone">Ορισμός ως ήχος κλήσης</string>
+    <string name="action_set_as_start_directory">Ορισμός ως κατάλογος έναρξης</string>
+    <string name="action_settings">Ρυθμίσεις </string>
+    <string name="action_share">Μοιραστείτε</string>
+    <string name="action_shuffle_album">Τυχαίο άλμπουμ</string>
+    <string name="action_shuffle_all">Τυχαία τραγούδια</string>
+    <string name="action_shuffle_artist">Τυχαίος καλλιτέχνης</string>
+    <string name="action_shuffle_playlist">Τυχαία λίστα αναπαραγωγής</string>
+    <string name="action_sleep_timer">Χρονοδιακόπτης ύπνου</string>
+    <string name="action_tag_editor">Επεξεργασία ετικετών</string>
+    <string name="action_update_image">Ανανέωση εικόνας</string>
+    <string name="action_web_search">Αναζήτηση στο διαδίκτυο</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Αυτόματη συμπλήρωση"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Αυτόματη συμπλήρωση"</string>
+    <string name="app_intro_back_button">ΠΙΣΩ</string>
+    <string name="app_intro_done_button">ΤΕΛΟΣ</string>
+    <string name="app_intro_image_content_description">γραφικά</string>
+    <string name="app_intro_next_button">ΣΥΝΕΧΕΙΑ</string>
+    <string name="app_intro_skip_button">ΠΑΡΑΛΕΙΨΗ</string>
+    <string name="app_shortcut_last_added_short">Προστέθηκαν τελευταία</string>
+    <string name="app_shortcut_shuffle_all_short">Τυχαία αναπαραγωγή</string>
+    <string name="app_shortcut_top_tracks_short">Κορυφαία Κομμάτια</string>
+    <string name="app_widget_big_name">Magen Play - Μεγάλο</string>
+    <string name="app_widget_classic_name">Magen Play - Κλασικό</string>
+    <string name="app_widget_small_name">Magen Play - Μικρό</string>
+    <string name="bottomsheet_action_collapse">Σύμπτυξη του φύλλου κάτω μέρους</string>
+    <string name="bottomsheet_action_expand">Ανάπτυξη του φύλλου κάτω μέρους</string>
+    <string name="bottomsheet_action_expand_halfway">Ανάπτυξη μέχρι τη μέση</string>
+    <string name="bottomsheet_drag_handle_clicked">Η λαβή μεταφοράς πατήθηκε δύο φορές</string>
+    <string name="bottomsheet_drag_handle_content_description">Λαβή μεταφοράς</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Απάντηση"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Βίντεο"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Απόρριψη"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Τερματισμός"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Εισερχόμενη κλήση"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Κλήση σε εξέλιξη"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Διαλογή εισερχόμενης κλήσης"</string>
+    <string name="character_counter_content_description">Εισήχθησαν %1$d από %2$d χαρακτήρες</string>
+    <string name="character_counter_overflowed_content_description">Υπέρβαση ορίου χαρακτήρων %1$d από %2$d</string>
+    <string name="clear_text_end_icon_content_description">Διαγραφή κειμένου</string>
+    <string msgid="406453423630273620" name="close_drawer">"Κλείσιμο του μενού πλοήγησης"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Κλείσιμο φύλλου"</string>
+    <string msgid="6083905920877235314" name="copy">"Αντιγραφή"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Μη έγκυρη καταχώριση"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Αναδυόμενο παράθυρο"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Αναπτυσσόμενο μενού"</string>
+    <string name="err_audio_focus_denied">Έγινε άρνηση εστίασης ήχου</string>
+    <string name="err_biography_unavailable">\u03a3\u03c5\u03b3\u03b3\u03bd\u03ce\u03bc\u03b7, \u03b4\u03b5\u03bd \u03bc\u03c0\u03bf\u03c1\u03bf\u03cd\u03bc\u03b5 \u03c4\u03b7 \u03b2\u03b9\u03bf\u03b3\u03c1\u03b1\u03c6\u03af\u03b1 \u03b1\u03c5\u03c4\u03bf\u03cd \u03c4\u03bf\u03c5 \u03ba\u03b1\u03bb\u03bb\u03b9\u03c4\u03ad\u03c7\u03bd\u03b7</string>
+    <string name="err_could_not_create_playlist">\u0394\u03b5\u03bd \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03c5\u03bd\u03b1\u03c4\u03ae \u03b7 \u03b4\u03b7\u03bc\u03b9\u03bf\u03c5\u03c1\u03b3\u03af\u03b1 \u03bb\u03af\u03c3\u03c4\u03b1\u03c2 \u03b1\u03bd\u03b1\u03c0\u03b1\u03c1\u03b1\u03b3\u03c9\u03b3\u03ae\u03c2</string>
+    <string name="err_could_not_scan_files">Δεν μπόρεσε να πραγματοποιηθεί σάρωση σε %d αρχεία.</string>
+    <string name="err_failed_to_save_playlist">Η λίστα αναπαραγωγής απέτυχε να αποθηκευτεί (%s).</string>
+    <string name="err_no_audio_ID">Αναπαράγετε ένα τραγούδι πρώτα και δοκιμάστε ξανά.</string>
+    <string name="err_no_equalizer">Δε βρέθηκε ισοσταθμιστής</string>
+    <string name="err_permission_external_storage_denied">Άρνηση χορήγησης δικαιώματος πρόσβασης σε εξωτερικά μέσα αποθήκευσης.</string>
+    <string name="err_permissions_denied">Άρνηση χορήγησης δικαιωμάτων.</string>
+    <string name="err_playlist_exists">Η λίστα αναπαραγωγής %1$s υπάρχει ήδη.</string>
+    <string name="err_unplayable_file">\u03a3\u03c5\u03b3\u03b3\u03bd\u03ce\u03bc\u03b7 - \u03a5\u03c0\u03ae\u03c1\u03be\u03b5 \u03c3\u03c6\u03ac\u03bb\u03bc\u03b1 \u03c3\u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03c3\u03c0\u03ac\u03b8\u03b5\u03b9\u03b1 \u03b1\u03bd\u03b1\u03c0\u03b1\u03c1\u03b1\u03b3\u03c9\u03b3\u03ae\u03c2</string>
+    <string name="err_wiki_unavailable">\u0394\u03b5\u03bd \u03b2\u03c1\u03ad\u03b8\u03b7\u03ba\u03b5 \u03ba\u03b1\u03c4\u03b1\u03c7\u03ce\u03c1\u03b7\u03c3\u03b7 wiki \u03b3\u03b9\u03b1 \u03b1\u03c5\u03c4\u03cc \u03c4\u03bf \u03ac\u03bb\u03bc\u03c0\u03bf\u03c5\u03bc.</string>
+    <string name="error_a11y_label">Σφάλμα: μη έγκυρο</string>
+    <string name="error_icon_content_description">Σφάλμα</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Σύνθετες"</string>
+    <string name="exposed_dropdown_menu_content_description">Εμφάνιση αναπτυσσόμενου μενού</string>
+    <string name="icon_content_description">Εικονίδιο παραθύρου διαλόγου</string>
+    <string msgid="6827826412747255547" name="in_progress">"Σε εξέλιξη"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Έγινε μερικός έλεγχος"</string>
+    <string name="item_view_role_description">Καρτέλα</string>
+    <string name="label_album">Άλμπουμ</string>
+    <string name="label_album_artist">Καλλιτέχνης Άλμπουμ</string>
+    <string name="label_albums">Άλμπουμ</string>
+    <string name="label_artist">Καλλιτέχνης</string>
+    <string name="label_artists">Καλλιτέχνες</string>
+    <string name="label_biography">Βιογραφία</string>
+    <string name="label_bit_rate">Ποιότητα</string>
+    <string name="label_changelog">Κατάλογος αλλαγών</string>
+    <string name="label_colored_footers">Χρωματιστά υποσέλιδα</string>
+    <string name="label_description">Περιγραφή</string>
+    <string name="label_details">Λεπτομέρειες</string>
+    <string name="label_device_info">Πληροφορίες συσκευής</string>
+    <string name="label_equalizer">Ισοσταθμιστής</string>
+    <string name="label_file_format">Τύπος αρχείου</string>
+    <string name="label_file_name">Όνομα αρχείου</string>
+    <string name="label_file_path">Διαδρομή αρχείου</string>
+    <string name="label_file_size">Μέγεθος</string>
+    <string name="label_folders">Φάκελοι</string>
+    <string name="label_genre">Είδος</string>
+    <string name="label_genres">Είδη</string>
+    <string name="label_grid_size">Μέγεθος πλέγματος</string>
+    <string name="label_grid_size_land">Μέγεθος πλέγματος</string>
+    <string name="label_intro">Εισαγωγή</string>
+    <string name="label_licenses">Άδειες</string>
+    <string name="label_lyrics">Στίχοι</string>
+    <string name="label_playing_queue">Ουρά αναπαραγωγής</string>
+    <string name="label_playlists">Λίστες αναπαραγωγής</string>
+    <string name="label_sampling_rate">Ρυθμός δειγματοληψίας</string>
+    <string name="label_song">Τραγούδι</string>
+    <string name="label_songs">Τραγούδια</string>
+    <string name="label_title">Τίτλος</string>
+    <string name="label_track_length">Διάρκεια</string>
+    <string name="label_website">Ιστοσελίδα</string>
+    <string name="label_wiki">Online εγκυκλοπαίδεια</string>
+    <string name="label_year">Έτος</string>
+    <string name="material_clock_toggle_content_description">Επιλέξτε π.μ. ή μ.μ.</string>
+    <string name="material_hour_24h_suffix">%1$s ώρες</string>
+    <string name="material_hour_selection">Επιλογή ώρας</string>
+    <string name="material_hour_suffix">%1$s ακριβώς</string>
+    <string name="material_minute_selection">Επιλογή λεπτών</string>
+    <string name="material_minute_suffix">%1$s λεπτά</string>
+    <string name="material_timepicker_am">ΠΜ</string>
+    <string name="material_timepicker_clock_mode_description">Κάντε εναλλαγή στη λειτουργία ρολογιού, για την εισαγωγή της ώρας.</string>
+    <string name="material_timepicker_hour">Ώρα</string>
+    <string name="material_timepicker_minute">Λεπτό</string>
+    <string name="material_timepicker_pm">ΜΜ</string>
+    <string name="material_timepicker_select_time">Επιλέξτε ώρα</string>
+    <string name="material_timepicker_text_input_mode_description">Κάντε εναλλαγή στη λειτουργία εισαγωγής κειμένου, για την εισαγωγή της ώρας.</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"Ειδοποίηση"</string>
+    <string name="msg_added_title_to_playing_queue">Προστέθηκε ένας τίτλος στην ουρά αναπαραγωγής</string>
+    <string name="msg_added_x_titles_to_playing_queue">Προστέθηκαν %1$d τίτλοι στην ουρά αναπαραγωγής </string>
+    <string name="msg_copied_device_info_to_clipboard">Αντιγράφτηκαν οι πληροφορίες συσκευής στο πρόχειρο.</string>
+    <string name="msg_created_playlist_x">Δημιουργήθηκε η λίστα αναπαραγωγής %1$s</string>
+    <string name="msg_empty">Κενό</string>
+    <string name="msg_empty_playlist">Άδεια λίστα αναπαραγωγής</string>
+    <string name="msg_inserted_x_songs_into_playlist_x">Προστέθηκαν %1$d τραγούδια στην λίστα αναπαραγωγής%2$s</string>
+    <string name="msg_new_start_directory">%s είναι ο νέος κατάλογος έναρξης.</string>
+    <string name="msg_no_playlists">Καμία λίστα</string>
+    <string name="msg_no_results">Κανένα αποτέλεσμα</string>
+    <string name="msg_nothing_to_scan">Δεν υπάρχει κάτι για σάρωση.</string>
+    <string name="msg_scanned_files">Έγινε σάρωση σε %1$d από %2$d αρχεία.</string>
+    <string name="msg_sleep_timer_canceled">Ο χρονοδιακόπτης ύπνου έχει ακυρωθεί.</string>
+    <string name="msg_sleep_timer_set">Ο χρονοδιακόπτης ύπνου έχει οριστεί σε %d λεπτά από τώρα.</string>
+    <string name="mtrl_badge_numberless_content_description">Νέα ειδοποίηση</string>
+    <string name="mtrl_checkbox_state_description_checked">Επιλεγμένο</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Έγινε μερικός έλεγχος</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Μη επιλεγμένο</string>
+    <string name="mtrl_chip_close_icon_content_description">Κατάργηση %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">Πάνω από %1$d νέες ειδοποιήσεις</string>
+    <string name="mtrl_picker_a11y_next_month">Αλλαγή στον επόμενο μήνα</string>
+    <string name="mtrl_picker_a11y_prev_month">Αλλαγή στον προηγούμενο μήνα</string>
+    <string name="mtrl_picker_announce_current_range_selection">Επιλογή ημερομηνίας έναρξης: %1$s – Επιλογή ημερομηνίας λήξης: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Τρέχουσα επιλογή: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">χωρίς επιλογή</string>
+    <string name="mtrl_picker_cancel">Ακύρωση</string>
+    <string name="mtrl_picker_confirm">ΟΚ</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Επιλογή ημερομηνίας</string>
+    <string name="mtrl_picker_date_header_unselected">Επιλεγμένη ημερομηνία</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Ημερομηνία λήξης %1$s</string>
+    <string name="mtrl_picker_invalid_format">Μη έγκυρη μορφή.</string>
+    <string name="mtrl_picker_invalid_format_example">Παράδειγμα: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Χρησιμοποιήστε: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Μη έγκυρο εύρος.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Πλοήγηση στο τρέχον έτος %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Πλοήγηση στο έτος %1$d</string>
+    <string name="mtrl_picker_out_of_range">Εκτός εύρους: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ημερομηνία έναρξης – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Επιλογή εύρους</string>
+    <string name="mtrl_picker_range_header_unselected">Ημερομηνία έναρξης – Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_save">Αποθήκευση</string>
+    <string name="mtrl_picker_start_date_description">Ημερομηνία έναρξης %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Ημερομηνία</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ημερομηνία λήξης</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ημερομηνία έναρξης</string>
+    <string name="mtrl_picker_text_input_day_abbr">η</string>
+    <string name="mtrl_picker_text_input_month_abbr">μ</string>
+    <string name="mtrl_picker_text_input_year_abbr">ε</string>
+    <string name="mtrl_picker_today_description">Σήμερα %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Εναλλαγή στη λειτουργία εισαγωγής ημερολογίου</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Πατήστε για εναλλαγή στην προβολή Ημερολόγιο</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Εναλλαγή στη λειτουργία εισαγωγής κειμένου</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Πατήστε για εναλλαγή στην προβολή έτους</string>
+    <string name="mtrl_timepicker_cancel">Ακύρωση</string>
+    <string name="mtrl_timepicker_confirm">ΟΚ</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Μενού πλοήγησης"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Δεν έχει επιλεχθεί"</string>
+    <string msgid="6573031135582639649" name="not_set">"Δεν έχει οριστεί"</string>
+    <string name="notices_close">Κλείσιμο</string>
+    <string name="notices_title">Νομικές σημειώσεις</string>
+    <string name="password_toggle_content_description">Εμφάνιση κωδικού πρόσβασης</string>
+    <string name="playlist_favorites">Αγαπημένα</string>
+    <string name="playlist_history">Ιστορικό</string>
+    <string name="playlist_last_added">Προστέθηκαν τελευταία</string>
+    <string name="playlist_my_top_tracks">Τα κορυφαία κομμάτια μου</string>
+    <string name="pref_header_audio">Ήχος</string>
+    <string name="pref_header_colors">Χρώματα</string>
+    <string name="pref_header_images">Εικόνες</string>
+    <string name="pref_header_library">Βιβλιοθήκη</string>
+    <string name="pref_header_notification">Ειδοποιήσεις</string>
+    <string name="pref_header_now_playing_screen">Παίζει τώρα</string>
+    <string name="pref_header_playlists">Λίστες αναπαραγωγής</string>
+    <string name="pref_summary_audio_ducking">Ειδοποιήσεις, πλοήγηση κ.λπ.</string>
+    <string name="pref_summary_colored_app_shortcuts">Χρωματίζει τις συντομεύσεις της εφαρμογής στο κυρίως χρώμα.</string>
+    <string name="pref_summary_colored_navigation_bar">Χρωματίζει την μπάρα πλοήγησης στο πρωτεύον χρώμα</string>
+    <string name="pref_summary_colored_notification">\u03a7\u03c1\u03c9\u03bc\u03b1\u03c4\u03af\u03b6\u03b5\u03b9 \u03c4\u03b7\u03bd \u03bc\u03c0\u03ac\u03c1\u03b1 \u03b5\u03b9\u03b4\u03bf\u03c0\u03bf\u03b9\u03ae\u03c3\u03b5\u03c9\u03bd \u03c3\u03c4\u03bf \u03c7\u03c1\u03ce\u03bc\u03b1 \u03c4\u03bf\u03c5 album art \u03c4\u03bf\u03c5 \u03c4\u03c1\u03b1\u03b3\u03bf\u03c5\u03b4\u03b9\u03bf\u03cd</string>
+    <string name="pref_summary_gapless_playback">Μπορεί να δημιουργίσει θέματα αναπαραγωγής σε μερικές συσκευές.</string>
+    <string name="pref_title_app_shortcuts">Χρωματιστές συντομεύσεις εφαρμογής</string>
+    <string name="pref_title_audio_ducking">Μειώστε την ένταση στην απώλεια εστίασης</string>
+    <string name="pref_title_classic_notification">Κλασικός σχεδιασμός ειδοποιήσεων</string>
+    <string name="pref_title_colored_notification">Χρωματισμένη ειδοποίηση</string>
+    <string name="pref_title_gapless_playback">Εναλλαγή χωρίς παύση</string>
+    <string name="pref_title_general_theme">Γενικό θέμα</string>
+    <string name="pref_title_navigation_bar">Έγχρωμη μπάρα πλοήγησης</string>
+    <string name="pref_title_now_playing_screen_appearance">Εμφάνιση</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Το \"<xliff:g id="SUMMARY">%1$s</xliff:g>\" αντιγράφηκε στο πρόχειρο."</string>
+    <string name="primary_color">Πρωτεύον χρώμα</string>
+    <string name="primary_color_desc">Το πρωτεύον χρώμα θέματος είναι λουλακί.</string>
+    <string msgid="5941395253238309765" name="range_end">"Τέλος εύρους"</string>
+    <string msgid="7097486360902471446" name="range_start">"Αρχή εύρους"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Αναζήτηση"</string>
+    <string name="searchview_clear_text_content_description">Διαγραφή κειμένου</string>
+    <string name="searchview_navigation_content_description">Πίσω</string>
+    <string msgid="6043586758067023" name="selected">"Επιλεγμένο"</string>
+    <string name="side_sheet_accessibility_pane_title">Δευτερεύον φύλλο</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Ειδοποίηση"</string>
+    <string msgid="4139871816613051306" name="state_empty">"Κενό"</string>
+    <string msgid="5834637030682409883" name="state_off">"Ανενεργός"</string>
+    <string msgid="1490883874751719580" name="state_on">"Ενεργός"</string>
+    <string name="state_saving_changes">Γίνεται αποθήκευση αλλαγών... </string>
+    <string name="state_updating">Γίνεται ανανέωση...</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<xliff:g id="CURRENT_ITEMS">%1$s</xliff:g>, <xliff:g id="ADDED_ITEMS">%2$s</xliff:g>"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Εναλλαγή"</string>
+    <string msgid="1672349317127674378" name="tab">"Καρτέλα"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<xliff:g id="PERCENTAGE">%1$d</xliff:g> τοις εκατό."</string>
+    <string name="tips_go_to_the_issue_tracker_website">Θα μεταφερθείτε στην ιστοσελίδα του εντοπιστή ζητημάτων.</string>
+    <string name="tips_playlist_name_placeholder">Όνομα λίστας</string>
+    <string name="tips_search_hint">Αναζήτηση στη βιβλιοθήκη...</string>
+    <string name="tips_welcome_to_magen_play">Καλώς ήρθατε στο Magen Play, ένα όμορφο και ελαφρύ πρόγραμμα αναπαραγωγής μουσικής για το Android.  </string>
+    <string name="tips_x_selected">Επιλέχθηκαν %1$d</string>
+    <string name="title_add_playlist">Προσθήκη στη λίστα αναπαραγωγής</string>
+    <string name="title_new_playlist">Νέα λίστα αναπαραγωγής</string>
+    <string name="title_rename_playlist">Μετονομασία λίστας αναπαραγωγής</string>
+    <string name="title_up_next">Επόμενο</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"επεξήγηση εργαλείου"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"εμφάνιση επεξήγησης εργαλείου"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"ΑΝΕΝΕΡΓΗ"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ΕΝΕΡΓΗ"</string>
+</resources>

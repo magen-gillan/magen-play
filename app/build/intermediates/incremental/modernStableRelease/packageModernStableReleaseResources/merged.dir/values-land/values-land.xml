@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_header_height">144dp</dimen>
+    <dimen name="detail_header_image_height">112dp</dimen>
+    <dimen name="detail_header_small_image_height">80dp</dimen>
+    <dimen name="page_path_navigation_height">40dp</dimen>
+    <dimen name="page_tab_height">36dp</dimen>
+    <dimen name="page_toolbar_height">48dp</dimen>
+</resources>

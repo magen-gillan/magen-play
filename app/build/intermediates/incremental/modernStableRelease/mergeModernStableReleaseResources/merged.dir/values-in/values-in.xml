@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="msg_deletion_result">
+        <item quantity="other">%1$d / %2$d item berhasil dihapus.</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notifikasi baru</item>
+    <item quantity="other">%d notifikasi baru</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Tunjukkan jalan ke rumah"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Kembali ke atas"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Opsi lainnya"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Selesai"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Lihat semua"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Pilih aplikasi"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"NONAKTIF"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"AKTIF"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"spasi"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Telusuri..."</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Hapus kueri"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Telusuri kueri"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Telusuri"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Kirim kueri"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Penelusuran suara"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Bagikan dengan"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Bagikan dengan <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Ciutkan"</string>
+    <string name="about_adrian_summary">Untuk membuat halaman desain album.</string>
+    <string name="about_aidan_follestad_summary">Untuk sistem tema dan beberapa hal besar lainnya.</string>
+    <string name="about_aleksandar_tesic_summary">Untuk yang membantu saya dengan desainnya. </string>
+    <string name="about_author">Penulis</string>
+    <string name="about_donate">Donasikan</string>
+    <string name="about_eugene_cheung_summary">Untuk kontribusinya terhadap kode sumber.</string>
+    <string name="about_follow_on_twitter">Ikuti di Twitter</string>
+    <string name="about_maarten_corpel_summary">Untuk pembuat ilustrasi Play Store dan sampul album yang kosong. </string>
+    <string name="about_michael_cook_summary">Untuk ikon aplikasi material yang keren. </string>
+    <string name="about_original_author">Pembuat Asli</string>
+    <string name="about_plus_author">Pembuat dari Magen Play</string>
+    <string name="about_report_bugs">Laporkan masalah</string>
+    <string name="about_report_bugs_summary">Laporkan masalah atau sarankan fitur baru</string>
+    <string name="about_special_thanks_to">Terima kasih khusus kepada</string>
+    <string name="about_support_development">Dukung pengembangan</string>
+    <string name="about_translate">Terjemahkan</string>
+    <string name="about_translate_summary">Bantu terjemahkan Magen Play ke dalam bahasa Anda. </string>
+    <string name="about_version">Versi</string>
+    <string name="about_visit_website">Kunjungi situs</string>
+    <string name="about_write_an_email">Tulis pesan elektronik</string>
+    <string name="accent_color">Warna aksen</string>
+    <string name="accent_color_desc">Warna aksen tema</string>
+    <string name="action_about">Tentang</string>
+    <string name="action_add">Tambah</string>
+    <string name="action_add_to_black_list">Tambahkan ke daftar hitam</string>
+    <string name="action_add_to_favorites">Tambahkan ke favorit</string>
+    <string name="action_add_to_playing_queue">Tambahkan ke antrean putar</string>
+    <string name="action_add_to_playlist">Tambahkan ke daftar putar…</string>
+    <string name="action_cancel_current_timer">Batalkan pewaktu yang sekarang</string>
+    <string name="action_clear">Kosongkan</string>
+    <string name="action_clear_all_preference">bersihkan semua pengaturan aplikasi</string>
+    <string name="action_clear_playing_queue">Kosongkan antrean yang sedang diputar</string>
+    <string name="action_copy_to_clipboard">salin ke papan klip</string>
+    <string name="action_create">Buat</string>
+    <string name="action_delete">Hapus</string>
+    <string name="action_delete_from_device">Hapus dari perangkat</string>
+    <string name="action_details">Rincian</string>
+    <string name="action_download">Unduh</string>
+    <string name="action_go_to_album">Pergi ke album</string>
+    <string name="action_go_to_artist">Pergi ke artis</string>
+    <string name="action_grant">Izinkan</string>
+    <string name="action_grant_permission">Beri Perizinan</string>
+    <string name="action_more">Lainnya</string>
+    <string name="action_move_down">Pindah ke bawah</string>
+    <string name="action_move_to_bottom">Pindahkan ke bawah</string>
+    <string name="action_move_to_top">Pindahkan ke atas</string>
+    <string name="action_move_up">Pindah ke atas</string>
+    <string name="action_new_playlist">Daftar putar baru…</string>
+    <string name="action_next">Selanjutnya</string>
+    <string name="action_play">Putar</string>
+    <string name="action_play_next">Putar selanjutnya</string>
+    <string name="action_play_pause">Putar/Jeda</string>
+    <string name="action_previous">Sebelumnya</string>
+    <string name="action_refresh">Segarkan</string>
+    <string name="action_remove">Hapus</string>
+    <string name="action_remove_cover">Hapus sampul</string>
+    <string name="action_remove_from_favorites">Hapus dari favorit</string>
+    <string name="action_remove_from_playing_queue">Hapus dari antrian</string>
+    <string name="action_remove_from_playlist">Hapus dari daftar putar</string>
+    <string name="action_rename">Ubah nama</string>
+    <string name="action_reset">Muat ulang</string>
+    <string name="action_reset_artist_image">Atur ulang gambar artist</string>
+    <string name="action_retry">Coba Lagi</string>
+    <string name="action_save_playing_queue">Menyimpan antrian yang diputar</string>
+    <string name="action_save_playlist">Simpan sebagai berkas</string>
+    <string name="action_save_playlists">Simpan sebagai berkas</string>
+    <string name="action_scan">Pindai</string>
+    <string name="action_scan_directory">Pindai direktori</string>
+    <string name="action_scan_media">Pindai media</string>
+    <string name="action_search">Pencarian</string>
+    <string name="action_select_all">Pilih semua</string>
+    <string name="action_send_bug_report">Kirim secara manual</string>
+    <string name="action_set">Atur</string>
+    <string name="action_set_artist_image">Pasang gambar artis</string>
+    <string name="action_set_as_ringtone">Setel sebagai nada dering</string>
+    <string name="action_set_as_start_directory">Atur sebagai direktori awal</string>
+    <string name="action_settings">Pengaturan</string>
+    <string name="action_share">Bagikan</string>
+    <string name="action_shuffle_album">Putar album secara acak</string>
+    <string name="action_shuffle_all">Acak semua</string>
+    <string name="action_shuffle_artist">Putar artis secara acak</string>
+    <string name="action_shuffle_playlist">Putar daftar putar secara acak</string>
+    <string name="action_sleep_timer">Pewaktu tidur</string>
+    <string name="action_tag_editor">Ubah label</string>
+    <string name="action_theme_switch">Ubah tema</string>
+    <string name="action_update_image">Perbaharui gambar</string>
+    <string name="action_web_search">Pencarian web</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Isi otomatis"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Isi otomatis"</string>
+    <string name="app_intro_back_button" ns1:ignore="MissingTranslation">KEMBALI</string>
+    <string name="app_intro_done_button">SELESAI</string>
+    <string name="app_intro_image_content_description" ns1:ignore="MissingTranslation">grafik</string>
+    <string name="app_intro_next_button" ns1:ignore="MissingTranslation">LANJUT</string>
+    <string name="app_intro_skip_button">LEWATI</string>
+    <string name="app_shortcut_last_added_short">Terakhir ditambahkan</string>
+    <string name="app_shortcut_shuffle_all_short">Acak</string>
+    <string name="app_shortcut_top_tracks_short">Trek Teratas</string>
+    <string name="app_widget_big_name">Magen Play - Besar</string>
+    <string name="app_widget_card_name">Kartu - Magen Play</string>
+    <string name="app_widget_classic_name">Magen Play - Klasik</string>
+    <string name="app_widget_small_name">Magen Play - Kecil</string>
+    <string name="behaviour_auto">Otomatis</string>
+    <string name="behaviour_force_legacy">Paksa untuk menggunakan cara legacy</string>
+    <string name="behaviour_force_saf">Paksa untuk menggunakan Storage Access Framework</string>
+    <string name="bottomsheet_action_collapse">Menciutkan sheet bawah</string>
+    <string name="bottomsheet_action_expand">Meluaskan sheet bawah</string>
+    <string name="bottomsheet_action_expand_halfway">Luaskan setengah</string>
+    <string name="bottomsheet_drag_handle_clicked">Handel geser diketuk dua kali</string>
+    <string name="bottomsheet_drag_handle_content_description">Handel geser</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Jawab"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Tolak"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Tutup"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Panggilan masuk"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Panggilan sedang berlangsung"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Menyaring panggilan masuk"</string>
+    <string name="character_counter_content_description">Karakter yang dimasukkan %1$d dari %2$d</string>
+    <string name="character_counter_overflowed_content_description">Melebihi batas karakter %1$d dari %2$d</string>
+    <string name="clear_text_end_icon_content_description">Menghapus teks</string>
+    <string msgid="406453423630273620" name="close_drawer">"Tutup menu navigasi"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Tutup sheet"</string>
+    <string msgid="6083905920877235314" name="copy">"Salin"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Input tidak valid"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Jendela Pop-Up"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Menu dropdown"</string>
+    <string name="err_audio_focus_denied">Fokus audio ditolak.</string>
+    <string name="err_biography_unavailable">Tidak dapat menemukan entri biografi untuk artis ini.</string>
+    <string name="err_could_not_create_playlist">Tidak dapat membuat daftar putar.</string>
+    <string name="err_could_not_scan_files">Tidak dapat memindai %d berkas.</string>
+    <string name="err_failed_to_delete">Gagal menghapus</string>
+    <string name="err_failed_to_save_playlist">Gagal untuk menyimpan daftar putar (%s).</string>
+    <string name="err_file_incorrect">File tidak benar!</string>
+    <string name="err_no_audio_ID">Silahkan mainkan sebuah lagu dan coba lagi. </string>
+    <string name="err_no_equalizer">Tidak ada ekualiser yang ditemukan.</string>
+    <string name="err_permission_external_storage_denied">Izin untuk akses ke memori eksternal ditolak.</string>
+    <string name="err_permission_manage_external_storage_denied">sepertinya Magen Play tidak mempunyai izin \"mengelola penyimpanan external\"!</string>
+    <string name="err_permissions_denied">Izin ditolak</string>
+    <string name="err_playlist_exists">Daftar putar %1$s sudah ada.</string>
+    <string name="err_unplayable_file">Tidak dapat memutar lagu ini.</string>
+    <string name="err_wiki_unavailable">Tidak dapat menemukan entri wiki untuk album ini.</string>
+    <string name="error_a11y_label">Error: tidak valid</string>
+    <string name="error_icon_content_description">Error</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Lanjutan"</string>
+    <string name="exposed_dropdown_menu_content_description">Tampilkan menu dropdown</string>
+    <string name="failed">gagal!</string>
+    <string name="icon_content_description">Ikon Dialog</string>
+    <string msgid="6827826412747255547" name="in_progress">"Dalam proses"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Diperiksa sebagian"</string>
+    <string name="item_view_role_description">Tab</string>
+    <string name="label_album_artist">Artis album</string>
+    <string name="label_albums">Album-album</string>
+    <string name="label_artist">Artis</string>
+    <string name="label_artists">Artis</string>
+    <string name="label_biography">Biografi</string>
+    <string name="label_bit_rate">Kecepatan bit</string>
+    <string name="label_blacklist">Daftar hitam</string>
+    <string name="label_changelog">Perubahan</string>
+    <string name="label_colored_footers">Bawahan berwarna</string>
+    <string name="label_databases">Basis data</string>
+    <string name="label_description">Deskripsi</string>
+    <string name="label_details">Rincian</string>
+    <string name="label_device_info">Info Perangkat</string>
+    <string name="label_embedded_lyrics">lirik tertanam</string>
+    <string name="label_equalizer">Ekualiser</string>
+    <string name="label_external_lyrics">lirik luar</string>
+    <string name="label_file_format">Jenis</string>
+    <string name="label_file_name">Nama berkas</string>
+    <string name="label_file_path">Lokasi berkas</string>
+    <string name="label_file_size">Ukuran</string>
+    <string name="label_folders">Map-map</string>
+    <string name="label_genre">Aliran</string>
+    <string name="label_genres">Aliran</string>
+    <string name="label_grid_size">Ukuran kisi</string>
+    <string name="label_grid_size_land">Ukuran kisi (lanskap)</string>
+    <string name="label_intro">Pengenalan</string>
+    <string name="label_library_categories">Kategori perpustakaan</string>
+    <string name="label_licenses">Lisensi</string>
+    <string name="label_lyrics">Lirik</string>
+    <string name="label_name">Nama</string>
+    <string name="label_other">Lainnya</string>
+    <string name="label_playing_queue">Antrean putar</string>
+    <string name="label_playlists">Daftar putar</string>
+    <string name="label_preferences">Preferensi</string>
+    <string name="label_sampling_rate">Batas frekuensi</string>
+    <string name="label_song">Lagu</string>
+    <string name="label_songs">Lagu</string>
+    <string name="label_sort_order">Tata urutan</string>
+    <string name="label_tg_channel">Saluran Telegram</string>
+    <string name="label_title">Judul</string>
+    <string name="label_track">Nomor Lagu</string>
+    <string name="label_track_length">Panjang</string>
+    <string name="label_website">Situs</string>
+    <string name="label_year">Tahun</string>
+    <string name="material_clock_toggle_content_description">Pilih AM atau PM</string>
+    <string name="material_hour_24h_suffix">%1$s jam</string>
+    <string name="material_hour_selection">Pilih jam</string>
+    <string name="material_hour_suffix">Pukul %1$s</string>
+    <string name="material_minute_selection">Pilih menit</string>
+    <string name="material_minute_suffix">%1$s menit</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">Beralih ke mode jam untuk masukan waktu.</string>
+    <string name="material_timepicker_hour">Jam</string>
+    <string name="material_timepicker_minute">Menit</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">Pilih waktu</string>
+    <string name="material_timepicker_text_input_mode_description">Beralih ke mode masukan teks untuk masukan waktu.</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"Pemberitahuan"</string>
+    <string name="msg_added_title_to_playing_queue">1 lagu ditambahkan ke antrean putar</string>
+    <string name="msg_added_x_titles_to_playing_queue">Telah menambah %1$d lagu ke antrean putar</string>
+    <string name="msg_copied_device_info_to_clipboard">Info perangkat tersalin ke papan klip</string>
+    <string name="msg_created_playlist_x">Telah membuat daftar putar %1$s</string>
+    <string name="msg_empty">Kosong</string>
+    <string name="msg_empty_playlist">Daftar putar kosong</string>
+    <string name="msg_inserted_x_songs_into_playlist_x">Telah menambah %1$d lagu ke daftar putar %2$s.</string>
+    <string name="msg_new_start_directory">%s adalah direktori awal yang baru.</string>
+    <string name="msg_no_playlists">Tidak ada daftar putar</string>
+    <string name="msg_no_results">Tidak ditemukan</string>
+    <string name="msg_nothing_to_scan">Tidak ada untuk di pindai.</string>
+    <string name="msg_scanned_files">%1$d dari %2$d berkas terpindai.</string>
+    <string name="msg_sleep_timer_canceled">Pewaktu tidur dibatalkan. </string>
+    <string name="msg_sleep_timer_set">Pewaktu tidur diatur selama %d menit dari sekarang. </string>
+    <string name="mtrl_badge_numberless_content_description">Notifikasi baru</string>
+    <string name="mtrl_checkbox_state_description_checked">Dicentang</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Dicentang sebagian</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Tidak dicentang</string>
+    <string name="mtrl_chip_close_icon_content_description">Menghapus %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">Lebih dari %1$d notifikasi baru</string>
+    <string name="mtrl_picker_a11y_next_month">Ubah ke bulan berikutnya</string>
+    <string name="mtrl_picker_a11y_prev_month">Ubah ke bulan sebelumnya</string>
+    <string name="mtrl_picker_announce_current_range_selection">Pemilihan tanggal mulai: %1$s – Pemilihan tanggal akhir: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Pilihan saat ini: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">tidak ada</string>
+    <string name="mtrl_picker_cancel">Batal</string>
+    <string name="mtrl_picker_confirm">Oke</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Pilih Tanggal</string>
+    <string name="mtrl_picker_date_header_unselected">Tanggal yang dipilih</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Tanggal akhir %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format tidak valid.</string>
+    <string name="mtrl_picker_invalid_format_example">Contoh: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Gunakan: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Rentang tidak valid.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Pilih tahun ini %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Buka tahun %1$d</string>
+    <string name="mtrl_picker_out_of_range">Di luar rentang: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Tanggal mulai – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Tanggal akhir</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Pilih Rentang</string>
+    <string name="mtrl_picker_range_header_unselected">Tanggal mulai – Tanggal akhir</string>
+    <string name="mtrl_picker_save">Simpan</string>
+    <string name="mtrl_picker_start_date_description">Tanggal mulai %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Tanggal</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Tanggal akhir</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Tanggal mulai</string>
+    <string name="mtrl_picker_text_input_day_abbr">h</string>
+    <string name="mtrl_picker_text_input_month_abbr">b</string>
+    <string name="mtrl_picker_text_input_year_abbr">t</string>
+    <string name="mtrl_picker_today_description">Hari ini %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Beralih ke mode masukan kalender</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Ketuk untuk beralih ke tampilan Kalender</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Beralih ke mode masukan teks</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Ketuk untuk beralih ke tampilan tahun</string>
+    <string name="mtrl_timepicker_cancel">Batal</string>
+    <string name="mtrl_timepicker_confirm">Oke</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Menu navigasi"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Tidak dipilih"</string>
+    <string msgid="6573031135582639649" name="not_set">"Belum disetel"</string>
+    <string name="notification_background_name">Kerja Latar Belakang </string>
+    <string name="notification_error_name">Laporan Kesalahan</string>
+    <string name="notification_playing_description">Notifikasi bermain memberi tindakan untuk putar/jeda, dll.</string>
+    <string name="notification_playing_name">Notifikasi bermain</string>
+    <string name="notification_update_description">Notifikasi dari aplikasi bisa di perbarui.</string>
+    <string name="notification_update_name">Perbarui</string>
+    <string name="option_delete_with_saf">Hapus dengan SAF</string>
+    <string name="option_finish_current_music_sleep_timer">Selesaikan lagu terakhir</string>
+    <string name="option_lyrics_following">Lirik Mengikuti</string>
+    <string name="password_toggle_content_description">Tampilkan sandi</string>
+    <string name="perf_title_fixed_tab_layout">Perbaiki semua tab</string>
+    <string name="playlist_favorites">Favorit</string>
+    <string name="playlist_history">Diputar baru-baru ini</string>
+    <string name="playlist_last_added">Terakhir ditambahkan</string>
+    <string name="playlist_my_top_tracks">Sering Diputar</string>
+    <string name="pref_header_appearance">Penampilan</string>
+    <string name="pref_header_audio">Suara</string>
+    <string name="pref_header_colors">Warna</string>
+    <string name="pref_header_compatibility">Kompabilitas</string>
+    <string name="pref_header_images">Gambar</string>
+    <string name="pref_header_library">Pustaka</string>
+    <string name="pref_header_notification">Notifikasi</string>
+    <string name="pref_header_now_playing_screen">Sedang diputar</string>
+    <string name="pref_header_playlists">Daftar putar</string>
+    <string name="pref_summary_audio_ducking">Pemberitahuan, navigasi dll.</string>
+    <string name="pref_summary_classic_notification">Gunakan desain notifikasi klasik.</string>
+    <string name="pref_summary_colored_app_shortcuts">Mewarnai pintasan-pintasan dengan warna utama.</string>
+    <string name="pref_summary_colored_navigation_bar">Mewarnai bilah navigasi dengan warna primer. </string>
+    <string name="pref_summary_colored_notification">Mewarnai notifikasi putar dengan warna yang cerah dari album.</string>
+    <string name="pref_summary_display_lyrics_time_axis">Tampilkan waktu mulai lirik yang tersinkronisasi di lirik dialog.</string>
+    <string name="pref_summary_fixed_tab_layout">Tab di atas tidak dapat digulir, tetapi memutari ubin tanpa batas apapun.</string>
+    <string name="pref_summary_gapless_playback">Dapat menyebabkan masalah pemutaran pada beberapa perangkat.</string>
+    <string name="pref_summary_library_categories">Konfigurasi visibilitas dan urutan kategori perpustakaan.</string>
+    <string name="pref_summary_playlist_files_operation_behaviour">Perilaku tentang bagaimana operasi daftar putar file ketika dibuat, diubah dll. Untuk file daftar putar.</string>
+    <string name="pref_summary_remember_last_tab">Pergi ke tab yang terakhir saat aplikasi dibuka</string>
+    <string name="pref_summary_send_lyrics">Tampilkan lirik yang tersinkronisasi ke Modul Xposed \"StatusBar Lyrics\"</string>
+    <string name="pref_summary_synchronized_lyrics_show">Saat ini hanya mendukung lirik dalam format LRC yang disinkronkan. Antara tertanam atau sebagai file terpisah.</string>
+    <string name="pref_summary_use_legacy_favorite_playlist_impl">Jika ini di aktifkan, aplikasi akan menyimpan lagu favorit ke sebuah daftar putar m3u di Penyimpanan daripada menyimpan lagu favorit ke internal basis data aplikasi. (Anda dapat mengekspor daftar secara manual).</string>
+    <string name="pref_title_app_shortcuts">Pintasan Berwarna</string>
+    <string name="pref_title_audio_ducking">Kurangi suara saat ada pemberitahuan</string>
+    <string name="pref_title_classic_notification">Desain notifikasi klasik</string>
+    <string name="pref_title_colored_notification">Notifikasi berwarna</string>
+    <string name="pref_title_display_lyrics_time_axis">Tampilkan sumbu waktu lirik</string>
+    <string name="pref_title_gapless_playback">Pemutaran tanpa jeda</string>
+    <string name="pref_title_general_theme">Tema umum</string>
+    <string name="pref_title_last_added_interval">Sela daftar putar yang terakhir ditambahkan</string>
+    <string name="pref_title_navigation_bar">Alat Navigasi Berwarna</string>
+    <string name="pref_title_now_playing_screen_appearance">Tampilan</string>
+    <string name="pref_title_playlist_files_operation_behaviour">Perilaku Operasi untuk file daftar putar </string>
+    <string name="pref_title_remember_last_tab">Ingat tab terakhir</string>
+    <string name="pref_title_remember_shuffle">Ingat putar acak</string>
+    <string name="pref_title_send_lyrics">Tampilkan lirik yang tersinkronisasi</string>
+    <string name="pref_title_synchronized_lyrics_show">Tampilkan lirik yang tersinkronisasi</string>
+    <string name="pref_title_use_legacy_favorite_playlist_impl">Gunakan mekanisme daftar putar favorit legacy</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<xliff:g id="SUMMARY">%1$s</xliff:g>\" disalin ke papan klip."</string>
+    <string name="primary_color">Warna utama</string>
+    <string name="primary_color_desc">Warna tema utama</string>
+    <string msgid="5941395253238309765" name="range_end">"Rentang akhir"</string>
+    <string msgid="7097486360902471446" name="range_start">"Rentang awal"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Telusuri"</string>
+    <string name="searchview_clear_text_content_description">Hapus teks</string>
+    <string name="searchview_navigation_content_description">Kembali</string>
+    <string msgid="6043586758067023" name="selected">"Dipilih"</string>
+    <string name="side_sheet_accessibility_pane_title">Sheet Samping</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Pemberitahuan"</string>
+    <string name="sort_order_a_z">Naik</string>
+    <string name="sort_order_album_count">Jumlah Album</string>
+    <string name="sort_order_artist">Artis</string>
+    <string name="sort_order_date_added">Tanggal Ditambahkan</string>
+    <string name="sort_order_date_modified">Tanggal Dimodifikasi</string>
+    <string name="sort_order_duration">Durasi</string>
+    <string name="sort_order_song">Lagu</string>
+    <string name="sort_order_song_count">Jumlah Lagu</string>
+    <string name="sort_order_year">Tahun</string>
+    <string name="sort_order_z_a">Turun</string>
+    <string msgid="4139871816613051306" name="state_empty">"Kosong"</string>
+    <string name="state_loading">Memuat</string>
+    <string msgid="5834637030682409883" name="state_off">"Nonaktif"</string>
+    <string msgid="1490883874751719580" name="state_on">"Aktif"</string>
+    <string name="state_saving_changes">Menyimpan perubahan</string>
+    <string name="state_updating">Memperbaharui</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="success">Sukses!</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<xliff:g id="CURRENT_ITEMS">%1$s</xliff:g>, <xliff:g id="ADDED_ITEMS">%2$s</xliff:g>"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Alihkan"</string>
+    <string msgid="1672349317127674378" name="tab">"Tab"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<xliff:g id="PERCENTAGE">%1$d</xliff:g> persen."</string>
+    <string name="tips_add_to_blacklist">Apakah Anda ingin menambahkan ke daftar hitam?</string>
+    <string name="tips_are_you_sure">Apakah Anda yakin?</string>
+    <string name="tips_go_to_the_issue_tracker_website">Anda akan ditersukan ke situs web pelacak masalah.</string>
+    <string name="tips_minutes">%1$d menit</string>
+    <string name="tips_not_available_now">tidak tersedia saat ini </string>
+    <string name="tips_open_file_with_saf">Sekarang, silahkan pilih file yang anda ingin operasikan </string>
+    <string name="tips_open_folder_with_saf">Sekarang, silahkan pilih folder file yang berisi file yang anda ingin operasikan </string>
+    <string name="tips_playlist_name_placeholder">Nama daftar putar</string>
+    <string name="tips_ringtone_settings">Izinkan Magen Play mengubah pengaturan audio</string>
+    <string name="tips_search_hint">Mencari pustaka Anda…</string>
+    <string name="tips_select_at_least_one_category">Anda harus memilih setidaknya satu kategori</string>
+    <string name="tips_welcome_to_magen_play">Selamat datang di Magen Play, sebuah pemutar musik yang indah dan ringan untuk Android. </string>
+    <string name="tips_x_selected">%1$d terpilih</string>
+    <string name="title_add_playlist">Tambahkan ke daftar putar</string>
+    <string name="title_crash">Aplikasi Crashed!!</string>
+    <string name="title_dialog_ringtone">Setel sebagai nada dering</string>
+    <string name="title_new_playlist">Daftar putar baru</string>
+    <string name="title_rename_playlist">Ubah nama daftar putar</string>
+    <string name="title_up_next">Berikutnya</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"tooltip"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"tampilkan tooltip"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"NONAKTIF"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"AKTIF"</string>
+    <string name="warning_clear_all_preference_msg"><b>Perhatian</b>: ini akan mengatur ulang <b>SEMUA</b> preferensi aplikasi/pengaturan! \nIni mungkin bisa berguna jika aplikasi crash saat dijalankan. \nApakah anda yakin?</string>
+</resources>

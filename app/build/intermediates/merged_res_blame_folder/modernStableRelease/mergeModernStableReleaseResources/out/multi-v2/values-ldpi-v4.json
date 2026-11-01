@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "player.phonograph.app-mergeModernStableReleaseResources-68:/values-ldpi-v4/values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/z/my-project/repos/magen-play/app/src/main/res/values-ldpi/dimens.xml",
+                    "from": {
+                        "startLines": "4,7,6,8,10,9,3,5",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "131,303,242,364,493,428,75,187",
+                        "endColumns": "55,60,60,63,66,64,55,54",
+                        "endOffsets": "182,359,298,423,555,488,126,237"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,111,172,233,297,364,429,485",
+                        "endColumns": "55,60,60,63,66,64,55,54",
+                        "endOffsets": "106,167,228,292,359,424,480,535"
+                    }
+                }
+            ]
+        }
+    ]
+}

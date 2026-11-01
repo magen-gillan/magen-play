@@ -1,0 +1,13 @@
+player.phonograph.app-modernStable-0 /home/z/my-project/repos/magen-play/app/build/generated/res/pngs/modernStable/release
+player.phonograph.app-modernStable-1 /home/z/my-project/repos/magen-play/app/build/generated/res/resValues/modernStable/release
+player.phonograph.app-updated_navigation_xml-2 /home/z/my-project/repos/magen-play/app/build/generated/updated_navigation_xml/modernStableRelease
+player.phonograph.app-packageModernStableReleaseResources-3 /home/z/my-project/repos/magen-play/app/build/intermediates/incremental/modernStableRelease/packageModernStableReleaseResources/merged.dir
+player.phonograph.app-packageModernStableReleaseResources-4 /home/z/my-project/repos/magen-play/app/build/intermediates/incremental/modernStableRelease/packageModernStableReleaseResources/stripped.dir
+player.phonograph.app-modernStableRelease-5 /home/z/my-project/repos/magen-play/app/build/intermediates/merged_res/modernStableRelease/mergeModernStableReleaseResources
+player.phonograph.app-main-6 /home/z/my-project/repos/magen-play/app/src/main/res
+player.phonograph.app-modern-7 /home/z/my-project/repos/magen-play/app/src/modern/res
+player.phonograph.app-modernStable-8 /home/z/my-project/repos/magen-play/app/src/modernStable/res
+player.phonograph.app-modernStableRelease-9 /home/z/my-project/repos/magen-play/app/src/modernStableRelease/res
+player.phonograph.app-release-10 /home/z/my-project/repos/magen-play/app/src/release/res
+player.phonograph.app-stable-11 /home/z/my-project/repos/magen-play/app/src/stable/res
+gradleHome-0 /home/z/.gradle

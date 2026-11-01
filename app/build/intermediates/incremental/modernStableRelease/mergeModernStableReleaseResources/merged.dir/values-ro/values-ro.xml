@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d notificare nouă</item>
+    <item quantity="few">%d notificări noi</item>
+    <item quantity="other">%d de notificări noi</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Navighează la ecranul de pornire"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Navighează în sus"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Mai multe opțiuni"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Gata"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Afișează tot"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Alege o aplicație"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"DEZACTIVAT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"ACTIVAT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Meniu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Caută…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Șterge interogarea"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Termen de căutare"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Caută"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Trimite interogarea"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Căutare vocală"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Trimite la"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Trimite folosind <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Restrânge"</string>
+    <string name="about_adrian_summary">Pentru crearea designului paginii albume</string>
+    <string name="about_aidan_follestad_summary">Pentru motorul tematic și câteva alte lucruri minunate.</string>
+    <string name="about_aleksandar_tesic_summary">Pentru ajutorul cu designul.</string>
+    <string name="about_author">Autor</string>
+    <string name="about_donate">Donaţi</string>
+    <string name="about_eugene_cheung_summary">Pentru contribuțiile sale la codul sursă.</string>
+    <string name="about_follow_on_twitter">Urmăriţi pe Twitter</string>
+    <string name="about_maarten_corpel_summary">Pentru ilustrația din magazinului Play și coperta albumului gol.</string>
+    <string name="about_michael_cook_summary">Pentru pictograma drăguţă a aplicației în stil material.</string>
+    <string name="about_report_bugs">Raportaţi probleme</string>
+    <string name="about_report_bugs_summary">Raportați probleme sau solicitați noi funcții.</string>
+    <string name="about_special_thanks_to">Mulțumiri speciale</string>
+    <string name="about_support_development">Susţineţi dezvoltarea</string>
+    <string name="about_translate">Traducere</string>
+    <string name="about_translate_summary">Ajutaţi la traducerea Magen Play în limba maternă.</string>
+    <string name="about_version">Versiune</string>
+    <string name="about_visit_website">Vizitati site-ul web</string>
+    <string name="about_write_an_email">Scrieţi un e-mail</string>
+    <string name="accent_color">Culoare de accent</string>
+    <string name="accent_color_desc">Culoarea de accent a temei.</string>
+    <string name="action_about">Despre</string>
+    <string name="action_add">Adăugare</string>
+    <string name="action_add_to_favorites">Adăugați la favorite</string>
+    <string name="action_add_to_playing_queue">Adaugă la lista de redare</string>
+    <string name="action_add_to_playlist">Adăugaţi în lista de redare...</string>
+    <string name="action_cancel_current_timer">Anulează timer curent.</string>
+    <string name="action_clear">Eliberați</string>
+    <string name="action_clear_playing_queue">Golește lista de redare</string>
+    <string name="action_create">Creați</string>
+    <string name="action_delete">Șterge</string>
+    <string name="action_delete_from_device">Ștergeți de pe dispozitiv</string>
+    <string name="action_details">Detalii</string>
+    <string name="action_go_to_album">Accesaţi albumul</string>
+    <string name="action_go_to_artist">Accesaţi artistul</string>
+    <string name="action_grant">Permiteți</string>
+    <string name="action_new_playlist">Lista de redare nouă...</string>
+    <string name="action_next">Următor</string>
+    <string name="action_play">Redă</string>
+    <string name="action_play_next">Redaţi următoarea</string>
+    <string name="action_play_pause">Redă/Pauză</string>
+    <string name="action_previous">Anterior</string>
+    <string name="action_remove">Ștergeți</string>
+    <string name="action_remove_cover">Ștergeți coperta</string>
+    <string name="action_remove_from_favorites">Ștergeți de la favorite</string>
+    <string name="action_remove_from_playing_queue">Șterge din lista de redare</string>
+    <string name="action_remove_from_playlist">Ștergeți din lista de redare.</string>
+    <string name="action_rename">Redenumește</string>
+    <string name="action_reset">Resetaţi</string>
+    <string name="action_reset_artist_image">Resetați imaginea artistului</string>
+    <string name="action_save_playing_queue">Salvați lista de redare</string>
+    <string name="action_save_playlist">Salveaza ca fișier</string>
+    <string name="action_save_playlists">Salvează ca fișiere</string>
+    <string name="action_scan">Scanează</string>
+    <string name="action_scan_directory">Scaneaza locatia</string>
+    <string name="action_scan_media">scanare media</string>
+    <string name="action_search">Căutare</string>
+    <string name="action_send_bug_report">Trimiteți manual</string>
+    <string name="action_set">Setează</string>
+    <string name="action_set_artist_image">Setați imaginea artistului</string>
+    <string name="action_set_as_ringtone">Setați ca sonerie</string>
+    <string name="action_set_as_start_directory">Setaţi ca dosar de pornire</string>
+    <string name="action_settings">Setări</string>
+    <string name="action_share">Distribuiți</string>
+    <string name="action_shuffle_album">Amestecare album</string>
+    <string name="action_shuffle_all">Amestecare tot</string>
+    <string name="action_shuffle_artist">Amestecare artist</string>
+    <string name="action_shuffle_playlist">Amestecare listă de redare</string>
+    <string name="action_sleep_timer">Cronometru pentru somn</string>
+    <string name="action_tag_editor">Editor etichete</string>
+    <string name="action_update_image">Actualizare imagine</string>
+    <string name="action_web_search">Căutare pe Web</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Completare automată"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Completare automată"</string>
+    <string name="app_intro_back_button">ÎNAPOI</string>
+    <string name="app_intro_done_button">GATA</string>
+    <string name="app_intro_image_content_description">grafică</string>
+    <string name="app_intro_next_button">URMĂTORUL</string>
+    <string name="app_intro_skip_button">SARI PESTE</string>
+    <string name="app_shortcut_last_added_short">Ultimele adăugate</string>
+    <string name="app_shortcut_shuffle_all_short">Amestecare</string>
+    <string name="app_shortcut_top_tracks_short">Melodii de top</string>
+    <string name="app_widget_big_name">Magen Play - Mare</string>
+    <string name="app_widget_classic_name">Magen Play - Clasic</string>
+    <string name="app_widget_small_name">Magen Play - Mic</string>
+    <string name="bottomsheet_action_collapse">Restrângeți foaia din partea de jos</string>
+    <string name="bottomsheet_action_expand">Extindeți foaia din partea de jos</string>
+    <string name="bottomsheet_action_expand_halfway">Extinde pe ecran complet</string>
+    <string name="bottomsheet_drag_handle_clicked">Ghidaj de tragere atins de două ori</string>
+    <string name="bottomsheet_drag_handle_content_description">Ghidaj de tragere</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Răspunde"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Respinge"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Închide"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Apel primit"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Apel în desfășurare"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Se filtrează un apel primit"</string>
+    <string name="character_counter_content_description">Caractere introduse: %1$d din %2$d</string>
+    <string name="character_counter_overflowed_content_description">Limita de caractere a depășit %1$d din %2$d</string>
+    <string name="clear_text_end_icon_content_description">Ștergeți textul</string>
+    <string msgid="406453423630273620" name="close_drawer">"Închide meniul de navigare"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Închide foaia"</string>
+    <string msgid="6083905920877235314" name="copy">"Copiați"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Intrare nevalidă"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Fereastră pop-up"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Meniu drop-down"</string>
+    <string name="err_audio_focus_denied">Focus audio respins.</string>
+    <string name="err_biography_unavailable">Nu a putut fi g\u0103sit\u0103 o \u00eenregistrare biografic\u0103 pentru acest artist.</string>
+    <string name="err_could_not_create_playlist">Nu s-a putut crea lista de redare.</string>
+    <string name="err_could_not_scan_files">Nu s-au putut scana %d fişiere.</string>
+    <string name="err_failed_to_save_playlist">Salvarea listei de redare (%s) a eșuat.</string>
+    <string name="err_no_audio_ID">Redă o melodie mai întâi, apoi încearcă din nou.</string>
+    <string name="err_no_equalizer">Niciun egalizator găsit</string>
+    <string name="err_permission_external_storage_denied">Permisiunea de a accesa stocarea externă a fost respinsă.</string>
+    <string name="err_permissions_denied">Permisiune refuzată.</string>
+    <string name="err_playlist_exists">Lista de redare %1$s există deja.</string>
+    <string name="err_unplayable_file">Nu se poate reda.</string>
+    <string name="err_wiki_unavailable">Nu s-a putut g\u0103si o \u00eenregistrare wiki pentru acest album.</string>
+    <string name="error_a11y_label">Eroare: nevalidă</string>
+    <string name="error_icon_content_description">Eroare</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Avansat"</string>
+    <string name="exposed_dropdown_menu_content_description">Afișați meniul drop-down</string>
+    <string name="icon_content_description">Pictogramă de dialog</string>
+    <string msgid="6827826412747255547" name="in_progress">"În curs"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Bifată parțial"</string>
+    <string name="item_view_role_description">Filă</string>
+    <string name="label_album_artist">Artistul albumului</string>
+    <string name="label_albums">Albume</string>
+    <string name="label_artists">Artiști</string>
+    <string name="label_biography">Biografie</string>
+    <string name="label_blacklist">Listă neagră</string>
+    <string name="label_changelog">Jurnal modificări</string>
+    <string name="label_colored_footers">Subsoluri colorate</string>
+    <string name="label_description">Descriere</string>
+    <string name="label_details">Detalii</string>
+    <string name="label_device_info">Informaţii dispozitiv</string>
+    <string name="label_equalizer">Egalizator</string>
+    <string name="label_file_name">Nume fișier</string>
+    <string name="label_file_path">Cale fișier</string>
+    <string name="label_file_size">Mărime</string>
+    <string name="label_folders">Dosare</string>
+    <string name="label_genre">Gen</string>
+    <string name="label_genres">Genuri</string>
+    <string name="label_grid_size">Mărimea grilei</string>
+    <string name="label_grid_size_land">Dimensiunea grilei (peisaj)</string>
+    <string name="label_intro">Introducere</string>
+    <string name="label_library_categories">Categorii</string>
+    <string name="label_licenses">Licenţe</string>
+    <string name="label_lyrics">Versuri</string>
+    <string name="label_playing_queue">Lista de redare</string>
+    <string name="label_playlists">Liste de redare</string>
+    <string name="label_sampling_rate">Rată de sampling</string>
+    <string name="label_song">Melodie</string>
+    <string name="label_songs">Melodii</string>
+    <string name="label_sort_order">Ordine de sortare</string>
+    <string name="label_title">Titlu</string>
+    <string name="label_track_length">Durată</string>
+    <string name="label_website">Site web</string>
+    <string name="label_year">An</string>
+    <string name="material_clock_toggle_content_description">Selectați ora</string>
+    <string name="material_hour_24h_suffix">%1$s ore</string>
+    <string name="material_hour_selection">Selectați ora</string>
+    <string name="material_hour_suffix">Ora %1$s</string>
+    <string name="material_minute_selection">Selectați minutele</string>
+    <string name="material_minute_suffix">%1$s minute</string>
+    <string name="material_timepicker_am">a.m.</string>
+    <string name="material_timepicker_clock_mode_description">Pentru a introduce ora, comutați la modul ceas.</string>
+    <string name="material_timepicker_hour">Ora</string>
+    <string name="material_timepicker_minute">Minut</string>
+    <string name="material_timepicker_pm">p.m.</string>
+    <string name="material_timepicker_select_time">Selectați ora</string>
+    <string name="material_timepicker_text_input_mode_description">Pentru a introduce ora, comutați la modul de introducere a textului.</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"Alertă"</string>
+    <string name="msg_added_title_to_playing_queue">Melodie adăugată în lista de redare.</string>
+    <string name="msg_added_x_titles_to_playing_queue">%1$d melodii adăugate în lista de redare.</string>
+    <string name="msg_copied_device_info_to_clipboard">Informațiile dispozitivului au fost copiate în clipboard.</string>
+    <string name="msg_created_playlist_x">Lista de redare %1$s a fost creată.</string>
+    <string name="msg_empty">Gol</string>
+    <string name="msg_empty_playlist">Listă goală</string>
+    <string name="msg_inserted_x_songs_into_playlist_x">%1$d melodii inserate in %2$s.</string>
+    <string name="msg_new_start_directory">%s este noul director de pornire.</string>
+    <string name="msg_no_playlists">Nu sunt liste de redare</string>
+    <string name="msg_no_results">Niciun rezultat</string>
+    <string name="msg_nothing_to_scan">Nimic de scanat.</string>
+    <string name="msg_scanned_files">Scanate %1$d din %2$d fişiere.</string>
+    <string name="msg_sleep_timer_canceled">Cronometru pentru somn anulat.</string>
+    <string name="msg_sleep_timer_set">Cronometrul pentru somn setat pentru %d minute din acest moment.</string>
+    <string name="mtrl_badge_numberless_content_description">Notificare nouă</string>
+    <string name="mtrl_checkbox_state_description_checked">Bifată</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Bifată parțial</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Nebifată</string>
+    <string name="mtrl_chip_close_icon_content_description">Eliminați %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">Peste %1$d notificări noi</string>
+    <string name="mtrl_picker_a11y_next_month">Treceți la luna următoare</string>
+    <string name="mtrl_picker_a11y_prev_month">Treceți la luna anterioară</string>
+    <string name="mtrl_picker_announce_current_range_selection">Selectarea datei de începere: %1$s – selectarea datei de încheiere: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Selecția actuală: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">niciuna</string>
+    <string name="mtrl_picker_cancel">Anulați</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Selectați data</string>
+    <string name="mtrl_picker_date_header_unselected">Data selectată</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Data de încheiere: %1$s</string>
+    <string name="mtrl_picker_invalid_format">Format nevalid.</string>
+    <string name="mtrl_picker_invalid_format_example">Exemplu: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Folosiți: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Interval nevalid.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Navigați la anul actual %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Navigați la anul %1$d</string>
+    <string name="mtrl_picker_out_of_range">Fără acoperire: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Data de începere – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – data de încheiere</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Selectați intervalul</string>
+    <string name="mtrl_picker_range_header_unselected">Data de începere – data de încheiere</string>
+    <string name="mtrl_picker_save">Salvați</string>
+    <string name="mtrl_picker_start_date_description">Data de începere: %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Dată</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Data de încheiere</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Data de începere</string>
+    <string name="mtrl_picker_text_input_day_abbr">z</string>
+    <string name="mtrl_picker_text_input_month_abbr">l</string>
+    <string name="mtrl_picker_text_input_year_abbr">a</string>
+    <string name="mtrl_picker_today_description">Astăzi, la %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Comutați la modul introducere în calendar</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Atingeți pentru a comuta la afișarea Calendar</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Comutați la modul de introducere a textului</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Atingeți pentru a comuta la afișarea An</string>
+    <string name="mtrl_timepicker_cancel">Anulați</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Meniu de navigare"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Neselectat"</string>
+    <string msgid="6573031135582639649" name="not_set">"Nesetată"</string>
+    <string name="notices_close">Închide</string>
+    <string name="notices_title">Anunțuri</string>
+    <string name="notification_playing_description">Notificarea de redare oferă acțiuni de redare/pauză etc.</string>
+    <string name="notification_playing_name">Notificare de redare</string>
+    <string name="password_toggle_content_description">Afișați parola</string>
+    <string name="playlist_favorites">Favorite</string>
+    <string name="playlist_history">Istoric</string>
+    <string name="playlist_last_added">Ultimele adăugate</string>
+    <string name="playlist_my_top_tracks">Melodiile mele favorite</string>
+    <string name="pref_header_colors">Culori</string>
+    <string name="pref_header_images">Imagini</string>
+    <string name="pref_header_library">Bibliotecă</string>
+    <string name="pref_header_notification">Notificare</string>
+    <string name="pref_header_now_playing_screen">Redare acum</string>
+    <string name="pref_header_playlists">Liste de redare</string>
+    <string name="pref_summary_audio_ducking">Notificări, navigație etc.</string>
+    <string name="pref_summary_classic_notification">Utilizați designul clasic de notificare.</string>
+    <string name="pref_summary_colored_app_shortcuts">Colorarea comenzilor rapide ale aplicației în culoarea primară.</string>
+    <string name="pref_summary_colored_navigation_bar">Colorare bară de navigare în culoarea primară.</string>
+    <string name="pref_summary_colored_notification">Coloreaz\u0103 bara de notificare cu cea mai vibrant\u0103 culoare a copertei de album.</string>
+    <string name="pref_summary_gapless_playback">Poate cauza probleme de redare pe unele dispozitive.</string>
+    <string name="pref_summary_library_categories">Configurați vizibilitatea și ordinea categoriilor din bibliotecă.</string>
+    <string name="pref_summary_remember_last_tab">Accesați ultima filă deschisă la lansare</string>
+    <string name="pref_summary_synchronized_lyrics_show">În prezent sunt acceptate numai versurile sincronizate în format LRC. Fie încorporate, fie ca fişier separat.</string>
+    <string name="pref_title_app_shortcuts">Comenzi rapide colorate</string>
+    <string name="pref_title_audio_ducking">Se reduce volumul la pierderea focalizării</string>
+    <string name="pref_title_classic_notification">Design clasic de notificare</string>
+    <string name="pref_title_colored_notification">Notificare colorată</string>
+    <string name="pref_title_gapless_playback">Redare fără întreruperi</string>
+    <string name="pref_title_general_theme">Temă generală</string>
+    <string name="pref_title_last_added_interval">Ultimul interval al listei de redare adăugate</string>
+    <string name="pref_title_navigation_bar">Bară de navigare colorată</string>
+    <string name="pref_title_now_playing_screen_appearance">Aspect</string>
+    <string name="pref_title_remember_last_tab">Rețineți ultima filă</string>
+    <string name="pref_title_synchronized_lyrics_show">Afişare versuri sincronizate</string>
+    <string msgid="6685851473431805375" name="preference_copied">"„<xliff:g id="SUMMARY">%1$s</xliff:g>” a fost copiat în clipboard."</string>
+    <string name="primary_color">Culoare primară</string>
+    <string name="primary_color_desc">Culoarea primară temei.</string>
+    <string msgid="5941395253238309765" name="range_end">"Sfârșit de interval"</string>
+    <string msgid="7097486360902471446" name="range_start">"Început de interval"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Caută"</string>
+    <string name="searchview_clear_text_content_description">Ștergeți textul</string>
+    <string name="searchview_navigation_content_description">Înapoi</string>
+    <string msgid="6043586758067023" name="selected">"Selectat"</string>
+    <string name="side_sheet_accessibility_pane_title">Foaie laterală</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Alertă"</string>
+    <string name="sort_order_a_z">crescător</string>
+    <string name="sort_order_year">An</string>
+    <string name="sort_order_z_a">descrescător</string>
+    <string msgid="4139871816613051306" name="state_empty">"Gol"</string>
+    <string msgid="5834637030682409883" name="state_off">"Dezactivat"</string>
+    <string msgid="1490883874751719580" name="state_on">"Activat"</string>
+    <string name="state_saving_changes">Se salvează schimbările</string>
+    <string name="state_updating">Actualizare...</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<xliff:g id="CURRENT_ITEMS">%1$s</xliff:g>, <xliff:g id="ADDED_ITEMS">%2$s</xliff:g>"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Comută"</string>
+    <string msgid="1672349317127674378" name="tab">"Filă"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<xliff:g id="PERCENTAGE">%1$d</xliff:g> %%."</string>
+    <string name="tips_go_to_the_issue_tracker_website">Veți fi redirecționați pe site-ul de urmărire a problemelor.</string>
+    <string name="tips_playlist_name_placeholder">Nume listă</string>
+    <string name="tips_search_hint">Căutați în bibliotecă.</string>
+    <string name="tips_select_at_least_one_category">Trebuie să selectați cel puțin o categorie.</string>
+    <string name="tips_welcome_to_magen_play">Bine ați venit la Magen Play, un player muzical frumos și ușor pentru Android. </string>
+    <string name="tips_x_selected">%1$d selectat/ă</string>
+    <string name="title_add_playlist">Adăugaţi la lista de redare</string>
+    <string name="title_new_playlist">Listă de redare nouă</string>
+    <string name="title_rename_playlist">Redenumire listă de redare</string>
+    <string name="title_up_next">Urmează</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"balon explicativ"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"afișează balonul explicativ"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"DEZACTIVAT"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"ACTIVAT"</string>
+</resources>

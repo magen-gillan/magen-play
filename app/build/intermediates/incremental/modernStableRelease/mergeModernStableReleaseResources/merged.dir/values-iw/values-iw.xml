@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d התראות חדשות</item>
+    <item quantity="two">%d התראות חדשות</item>
+    <item quantity="other">%d התראות חדשות</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"ניווט לדף הבית"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"ניווט למעלה"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"עוד אפשרויות"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"סיום"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"הצגת הכול"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"בחירת אפליקציה"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"כבוי"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"מופעל"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+‎"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"מחיקה"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"רווח"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"תפריט+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"חיפוש…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"מחיקת השאילתה"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"שאילתת חיפוש"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"חיפוש"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"שליחת שאילתה"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"חיפוש קולי"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"שיתוף עם"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"שיתוף עם <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"כיווץ"</string>
+    <string name="about_adrian_summary">על יצירת העיצוב של מסך האלבום.</string>
+    <string name="about_aidan_follestad_summary">על מנוע ערכת הנושא, ועוד כמה דברים נחמדים.</string>
+    <string name="about_aleksandar_tesic_summary">על העזרה עם העיצוב.</string>
+    <string name="about_author">מחבר</string>
+    <string name="about_donate">תרומה</string>
+    <string name="about_eugene_cheung_summary">על התרומה שלו לקוד המקור.</string>
+    <string name="about_follow_on_twitter">עקוב בטוויטר</string>
+    <string name="about_maarten_corpel_summary">על יצירת האיור בחנות Play, ותמונת האלבום הריק.</string>
+    <string name="about_michael_cook_summary">על סמל האפליקציה בסגנון Material.</string>
+    <string name="about_report_bugs">דווח על באגים</string>
+    <string name="about_report_bugs_summary">דווח על באגים או בקש פיצ\'רים חדשים.</string>
+    <string name="about_special_thanks_to">תודות מיוחדות ל</string>
+    <string name="about_support_development">תמיכה בפיתוח</string>
+    <string name="about_translate">תרגם</string>
+    <string name="about_translate_summary">עזור לתרגם את Magen Play לשפת האם שלך.</string>
+    <string name="about_version">גרסה</string>
+    <string name="about_visit_website">ביקור באתר</string>
+    <string name="about_write_an_email">כתוב אימייל</string>
+    <string name="accent_color">צבע הדגשה</string>
+    <string name="accent_color_desc">צבע ההדגשה של ערכת הנושא, ברירת המחדל הוא ורוד.</string>
+    <string name="action_about">אודות</string>
+    <string name="action_add">הוסף</string>
+    <string name="action_add_to_favorites">הוספה למועדפים</string>
+    <string name="action_add_to_playing_queue">הוספה לתור ההשמעה</string>
+    <string name="action_add_to_playlist">הוסף לרשימת השמעה...</string>
+    <string name="action_cancel_current_timer">בטל טיימר נוכחי</string>
+    <string name="action_clear">ניקוי</string>
+    <string name="action_clear_playing_queue">איפוס תור השמעה</string>
+    <string name="action_create">יצירה</string>
+    <string name="action_delete">מחיקה</string>
+    <string name="action_delete_from_device">מחק מהמכשיר</string>
+    <string name="action_details">פרטים</string>
+    <string name="action_go_to_album">מעבר לאלבום</string>
+    <string name="action_go_to_artist">מעבר לאמן</string>
+    <string name="action_grant">הענק</string>
+    <string name="action_new_playlist">רשימת השמעה חדשה...</string>
+    <string name="action_next">הבא</string>
+    <string name="action_play">נגן</string>
+    <string name="action_play_next">ניגון השיר הבא</string>
+    <string name="action_play_pause">הפעל/השהה</string>
+    <string name="action_previous">הקודם</string>
+    <string name="action_remove">הסרה</string>
+    <string name="action_remove_cover">הסרת עטיפה</string>
+    <string name="action_remove_from_favorites">הסרה מהמועדפים</string>
+    <string name="action_remove_from_playing_queue">הסרה מתור ההשמעה</string>
+    <string name="action_remove_from_playlist">הסר מרשימת ההשמעה</string>
+    <string name="action_rename">שינוי שם</string>
+    <string name="action_reset">אפס</string>
+    <string name="action_reset_artist_image">אפס תמונת אמן</string>
+    <string name="action_save_playing_queue">שמור תור פעיל</string>
+    <string name="action_save_playlist">שמור כקובץ</string>
+    <string name="action_save_playlists">שמור כקבצים</string>
+    <string name="action_scan">סרוק</string>
+    <string name="action_scan_directory">סרוק ספרייה</string>
+    <string name="action_scan_media">סרוק מדיה</string>
+    <string name="action_search">חיפוש</string>
+    <string name="action_select_all">בחר הכל</string>
+    <string name="action_send_bug_report">שלח באופן ידני</string>
+    <string name="action_set">קבע</string>
+    <string name="action_set_artist_image">הגדר תמונת אמן</string>
+    <string name="action_set_as_ringtone">הגדרה כצלצול</string>
+    <string name="action_set_as_start_directory">הגדר כנתיב התחלתי</string>
+    <string name="action_settings">הגדרות</string>
+    <string name="action_share">שיתוף</string>
+    <string name="action_shuffle_album">ערבב אלבום</string>
+    <string name="action_shuffle_all">ערבב הכל</string>
+    <string name="action_shuffle_artist">ערבב אמן</string>
+    <string name="action_shuffle_playlist">ערבב רשימת השמעה</string>
+    <string name="action_sleep_timer">טיימר לשינה</string>
+    <string name="action_tag_editor">עריכת תווית</string>
+    <string name="action_update_image">עדכון תמונה</string>
+    <string name="action_web_search">חיפוש באינטרנט</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"מילוי אוטומטי"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"מילוי אוטומטי"</string>
+    <string name="app_shortcut_last_added_short">נוספו לאחרונה</string>
+    <string name="app_shortcut_shuffle_all_short">ערבב</string>
+    <string name="app_shortcut_top_tracks_short">שירים מובילים</string>
+    <string name="app_widget_big_name">Magen Play - גדול</string>
+    <string name="app_widget_card_name">Magen Play - כרטיס</string>
+    <string name="app_widget_classic_name">Magen Play - קלאסי</string>
+    <string name="app_widget_small_name">Magen Play - קטן</string>
+    <string name="bottomsheet_action_collapse">כיווץ הגיליון התחתון</string>
+    <string name="bottomsheet_action_expand">הרחבת הגיליון התחתון</string>
+    <string name="bottomsheet_action_expand_halfway">הרחבה עד האמצע</string>
+    <string name="bottomsheet_drag_handle_clicked">בוצעה הקשה כפולה על נקודת האחיזה לגרירה</string>
+    <string name="bottomsheet_drag_handle_content_description">נקודת אחיזה לגרירה</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"מענה"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"וידאו"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"דחייה"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"ניתוק"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"שיחה נכנסת"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"שיחה פעילה"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"סינון שיחה נכנסת"</string>
+    <string name="character_counter_content_description">הוזנו %1$d תווים מתוך %2$d</string>
+    <string name="character_counter_overflowed_content_description">מגבלת התווים חורגת ב-%1$d מתוך %2$d</string>
+    <string name="clear_text_end_icon_content_description">מחיקת הטקסט</string>
+    <string msgid="406453423630273620" name="close_drawer">"סגירת תפריט הניווט"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"סגירת הגיליון"</string>
+    <string msgid="6083905920877235314" name="copy">"העתקה"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"הקלט לא תקין"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"חלון קופץ"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"תפריט נפתח"</string>
+    <string name="err_audio_focus_denied">מיקוד שמע נדחה.</string>
+    <string name="err_biography_unavailable">\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05de\u05e6\u05d5\u05d0 \u05e2\u05d5\u05d3 \u05e2\u05e8\u05da \u05d1\u05d9\u05d5\u05d2\u05e8\u05e4\u05d9\u05d4 \u05e9\u05dc \u05d0\u05de\u05df \u05d6\u05d4.</string>
+    <string name="err_could_not_create_playlist">\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05d9\u05e6\u05d5\u05e8 \u05e8\u05e9\u05d9\u05de\u05ea \u05e9\u05de\u05d9\u05e2\u05d4.</string>
+    <string name="err_could_not_scan_files">לא ניתן היה לסרוק %d קבצים.</string>
+    <string name="err_failed_to_save_playlist">לא ניתן היה לשמור את רשימת ההשמעה (%s)</string>
+    <string name="err_no_audio_ID">נגן/י שיר ואז נסה/י שנית.</string>
+    <string name="err_no_equalizer">אקוולייזר לא נמצא</string>
+    <string name="err_permission_external_storage_denied">הרשאה לגישה לאחסון החיצוני נדחתה.</string>
+    <string name="err_permissions_denied">הרשאות נדחו.</string>
+    <string name="err_playlist_exists">רשימת ההשמעה %1$s כבר קיימת.</string>
+    <string name="err_unplayable_file">\u05dc\u05d0 \u05e0\u05d9\u05ea\u05df \u05dc\u05e0\u05d2\u05df \u05e9\u05d9\u05e8 \u05d6\u05d4.</string>
+    <string name="err_wiki_unavailable">\u05dc\u05d0 \u05d9\u05db\u05d5\u05dc \u05dc\u05de\u05e6\u05d5\u05d0 \u05e2\u05e8\u05da \u05d5\u05d5\u05d9\u05e7\u05d9\u05e4\u05d3\u05d9\u05d4 \u05dc\u05d0\u05dc\u05d1\u05d5\u05dd \u05d4\u05d6\u05d4.</string>
+    <string name="error_a11y_label">שגיאה: לא תקין</string>
+    <string name="error_icon_content_description">שגיאה</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"מתקדם"</string>
+    <string name="exposed_dropdown_menu_content_description">הצגת התפריט הנפתח</string>
+    <string name="icon_content_description">סמל לתיבת דו-שיח</string>
+    <string msgid="6827826412747255547" name="in_progress">"בתהליך"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"מסומנת חלקית"</string>
+    <string name="item_view_role_description">מקש Tab</string>
+    <string name="label_album">אלבום</string>
+    <string name="label_album_artist">אמן האלבום</string>
+    <string name="label_albums">אלבומים</string>
+    <string name="label_artist">אמן</string>
+    <string name="label_artists">אמנים</string>
+    <string name="label_biography">ביוגרפיה</string>
+    <string name="label_bit_rate">קצב נתונים</string>
+    <string name="label_blacklist">רשימה שחורה</string>
+    <string name="label_changelog">רשימת שינויים</string>
+    <string name="label_colored_footers">תחתית צבעונית</string>
+    <string name="label_description">תיאור</string>
+    <string name="label_details">פרטים</string>
+    <string name="label_device_info">מידע על המכשיר</string>
+    <string name="label_equalizer">אקוולייזר</string>
+    <string name="label_file_format">תבנית</string>
+    <string name="label_file_name">שם הקובץ</string>
+    <string name="label_file_path">מיקום הקובץ</string>
+    <string name="label_file_size">גודל</string>
+    <string name="label_folders">תיקיות</string>
+    <string name="label_genre">סגנון</string>
+    <string name="label_genres">סגנונות</string>
+    <string name="label_grid_size">גודל הרשת</string>
+    <string name="label_grid_size_land">גודל הרשת (קרקע)</string>
+    <string name="label_intro">מבוא</string>
+    <string name="label_library_categories">קטגוריות הספרייה</string>
+    <string name="label_licenses">רישיונות</string>
+    <string name="label_lyrics">מילים</string>
+    <string name="label_playing_queue">מנגן תור השמעה</string>
+    <string name="label_playlists">רשימות השמעה</string>
+    <string name="label_sampling_rate">קצב דגימה</string>
+    <string name="label_song">שיר</string>
+    <string name="label_songs">שירים</string>
+    <string name="label_sort_order">סדר המיון</string>
+    <string name="label_title">כותרת</string>
+    <string name="label_track_length">אורך</string>
+    <string name="label_website">אתר</string>
+    <string name="label_wiki">וויקיפדיה</string>
+    <string name="label_year">שנה</string>
+    <string name="material_clock_toggle_content_description">יש לבחור ב-AM או ב-PM</string>
+    <string name="material_hour_24h_suffix">%1$s שעות</string>
+    <string name="material_hour_selection">בחר שעה</string>
+    <string name="material_hour_suffix">השעה %1$s</string>
+    <string name="material_minute_selection">בחר דקות</string>
+    <string name="material_minute_suffix">%1$s דקות</string>
+    <string name="material_timepicker_am">AM</string>
+    <string name="material_timepicker_clock_mode_description">העבר למצב שעון לצורך הזנת השעה</string>
+    <string name="material_timepicker_hour">שעה</string>
+    <string name="material_timepicker_minute">דקה</string>
+    <string name="material_timepicker_pm">PM</string>
+    <string name="material_timepicker_select_time">בחר שעה</string>
+    <string name="material_timepicker_text_input_mode_description">העבר למצב קלט טקסט לצורך הזנת השעה</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"התראה"</string>
+    <string name="msg_added_title_to_playing_queue">נוסף שיר אחד לתור </string>
+    <string name="msg_added_x_titles_to_playing_queue">נוספו %1$d שירים לתור</string>
+    <string name="msg_copied_device_info_to_clipboard">מידע מכשיר הועתק ללוח.</string>
+    <string name="msg_created_playlist_x">נוצרה רשימת השמיעה %1$s</string>
+    <string name="msg_empty">ריק</string>
+    <string name="msg_empty_playlist">רשימת השמעה ריקה</string>
+    <string name="msg_inserted_x_songs_into_playlist_x">הוכנסו %1$d שירים לתוך רשימת השמיעה %2$s</string>
+    <string name="msg_new_start_directory">%s הוא כעת נתיב ההתחלה החדש.</string>
+    <string name="msg_no_playlists">אין רשימות השמעה</string>
+    <string name="msg_no_results">אין תוצאות</string>
+    <string name="msg_nothing_to_scan">אין כלום לסרוק.</string>
+    <string name="msg_scanned_files">נסרקו %1$d מתוך %2$d קבצים.</string>
+    <string name="msg_sleep_timer_canceled">טיימר השינה בוטל.</string>
+    <string name="msg_sleep_timer_set">טיימר השינה נקבע לעוד %d דקות מעכשיו.</string>
+    <string name="mtrl_badge_numberless_content_description">התראה חדשה</string>
+    <string name="mtrl_checkbox_state_description_checked">מסומנת</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">מסומנת חלקית</string>
+    <string name="mtrl_checkbox_state_description_unchecked">לא מסומנת</string>
+    <string name="mtrl_chip_close_icon_content_description">הסרה של %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">יותר מ-%1$d התראות חדשות</string>
+    <string name="mtrl_picker_a11y_next_month">מעבר לחודש הבא</string>
+    <string name="mtrl_picker_a11y_prev_month">מעבר לחודש הקודם</string>
+    <string name="mtrl_picker_announce_current_range_selection">בחירת תאריך ההתחלה: %1$s – בחירת תאריך הסיום: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">הבחירה הנוכחית: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">ללא</string>
+    <string name="mtrl_picker_cancel">ביטול</string>
+    <string name="mtrl_picker_confirm">אישור</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">יש לבחור תאריך</string>
+    <string name="mtrl_picker_date_header_unselected">התאריך הנבחר</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">תאריך הסיום %1$s</string>
+    <string name="mtrl_picker_invalid_format">פורמט לא חוקי.</string>
+    <string name="mtrl_picker_invalid_format_example">דוגמה: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">יש להשתמש בפורמט: %1$s</string>
+    <string name="mtrl_picker_invalid_range">טווח לא חוקי.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">ניווט לשנה הנוכחית %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">ניווט לשנת %1$d</string>
+    <string name="mtrl_picker_out_of_range">מחוץ לטווח: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">תאריך התחלה – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – תאריך סיום</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">יש לבחור טווח</string>
+    <string name="mtrl_picker_range_header_unselected">תאריך התחלה - תאריך סיום</string>
+    <string name="mtrl_picker_save">שמירה</string>
+    <string name="mtrl_picker_start_date_description">תאריך ההתחלה %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">תאריך</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">תאריך סיום</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">תאריך התחלה</string>
+    <string name="mtrl_picker_text_input_day_abbr">י</string>
+    <string name="mtrl_picker_text_input_month_abbr">ח</string>
+    <string name="mtrl_picker_text_input_year_abbr">ש</string>
+    <string name="mtrl_picker_today_description">היום %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">החלפה לשיטת קלט של יומן</string>
+    <string name="mtrl_picker_toggle_to_day_selection">יש להקיש כדי לעבור לתצוגת יומן</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">החלפה לשיטת קלט של טקסט</string>
+    <string name="mtrl_picker_toggle_to_year_selection">יש להקיש כדי לעבור לתצוגת שנתית</string>
+    <string name="mtrl_timepicker_cancel">ביטול</string>
+    <string name="mtrl_timepicker_confirm">אישור</string>
+    <string msgid="542007171693138492" name="navigation_menu">"תפריט הניווט"</string>
+    <string msgid="6610465462668679431" name="not_selected">"לא נבחר"</string>
+    <string msgid="6573031135582639649" name="not_set">"לא מוגדרת"</string>
+    <string name="notification_playing_description">התראת הניגון מספקת פעולות הפעלה/השהייה וכו\'.</string>
+    <string name="notification_playing_name">התראת ניגון</string>
+    <string name="option_finish_current_music_sleep_timer">סיים את השיר האחרון</string>
+    <string name="password_toggle_content_description">הצגת סיסמה</string>
+    <string name="playlist_favorites">מועדפים</string>
+    <string name="playlist_history">הושמע לאחרונה</string>
+    <string name="playlist_last_added">נוספו לאחרונה</string>
+    <string name="playlist_my_top_tracks">השירים המובילים שלי</string>
+    <string name="pref_header_audio">שמע</string>
+    <string name="pref_header_colors">צבעים</string>
+    <string name="pref_header_images">תמונות</string>
+    <string name="pref_header_library">ספרייה</string>
+    <string name="pref_header_notification">התראות</string>
+    <string name="pref_header_now_playing_screen">מנגן כעת</string>
+    <string name="pref_header_playlists">רשימת השמעה</string>
+    <string name="pref_summary_audio_ducking">התראות, ניווט וכו\'</string>
+    <string name="pref_summary_classic_notification">השתמש בעיצוב התראות קלאסי.</string>
+    <string name="pref_summary_colored_app_shortcuts">צובע את קיצורי האפליקציה בצבע הראשי.</string>
+    <string name="pref_summary_colored_navigation_bar">צובע את שורת הניווט בצבע הראשי.</string>
+    <string name="pref_summary_colored_notification">\u05e6\u05d5\u05d1\u05e2 \u05d0\u05ea \u05d4\u05ea\u05e8\u05d0\u05ea \u05d4\u05e0\u05d2\u05df \u05d1\u05e6\u05d1\u05e2 \u05d4\u05de\u05e8\u05db\u05d6\u05d9 \u05e9\u05dc \u05ea\u05de\u05d5\u05e0\u05ea \u05d4\u05d0\u05dc\u05d1\u05d5\u05dd.</string>
+    <string name="pref_summary_gapless_playback">עלול לגרום לבעיות בהשמעה בחלק מן המכשירים.</string>
+    <string name="pref_summary_library_categories">הגדר את הנראות והסדר של הקטגוריות בספרייה.</string>
+    <string name="pref_summary_remember_last_tab">עבור לכרטיסייה האחרונה שהייתה פתוחה בהפעלה</string>
+    <string name="pref_summary_synchronized_lyrics_show">כרגע מסכרן מילות שירים רק בפורמט LRC.  מילות שרים מוטבעות או בקובץ נפרד.</string>
+    <string name="pref_title_app_shortcuts">קיצורי אפליקציה צבעוניים</string>
+    <string name="pref_title_audio_ducking">הפחת את עוצמת הקול באובדן מיקוד</string>
+    <string name="pref_title_classic_notification">עיצוב התראה קלאיסי</string>
+    <string name="pref_title_colored_notification">התראה צבעונית</string>
+    <string name="pref_title_gapless_playback">ניגון ללא מרווחים בין השירים</string>
+    <string name="pref_title_general_theme">ערכת נושא כללית</string>
+    <string name="pref_title_last_added_interval">הפסקת רשימת השמעה אחרונה שהוספה</string>
+    <string name="pref_title_navigation_bar">סרגל ניווט צבעוני</string>
+    <string name="pref_title_now_playing_screen_appearance">מראה</string>
+    <string name="pref_title_remember_last_tab">זכור את הכרטיסיה האחרונה</string>
+    <string name="pref_title_remember_shuffle">זכור ערבוב</string>
+    <string name="pref_title_synchronized_lyrics_show">הראה מילות שיר מסוכרנות</string>
+    <string msgid="6685851473431805375" name="preference_copied">"\"<xliff:g id="SUMMARY">%1$s</xliff:g>\" הועתק ללוח."</string>
+    <string name="primary_color">צבע ראשי</string>
+    <string name="primary_color_desc">צבע הנושא העיקרי, ברירת המחדל הוא אינדיגו.</string>
+    <string msgid="5941395253238309765" name="range_end">"סוף הטווח"</string>
+    <string msgid="7097486360902471446" name="range_start">"תחילת הטווח"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"חיפוש"</string>
+    <string name="searchview_clear_text_content_description">מחיקת הטקסט</string>
+    <string name="searchview_navigation_content_description">חזרה</string>
+    <string msgid="6043586758067023" name="selected">"נבחר"</string>
+    <string name="side_sheet_accessibility_pane_title">גיליון צדדי</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"התראה"</string>
+    <string name="sort_order_a_z">סדר עולה</string>
+    <string name="sort_order_album">אלבום</string>
+    <string name="sort_order_artist">אמן</string>
+    <string name="sort_order_year">שנה</string>
+    <string name="sort_order_z_a">סדר יורד</string>
+    <string msgid="4139871816613051306" name="state_empty">"ריק"</string>
+    <string msgid="5834637030682409883" name="state_off">"מצב מושבת"</string>
+    <string msgid="1490883874751719580" name="state_on">"מצב פעיל"</string>
+    <string name="state_saving_changes">שומר שינויים</string>
+    <string name="state_updating">מעדכן...</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<xliff:g id="CURRENT_ITEMS">%1$s</xliff:g>, <xliff:g id="ADDED_ITEMS">%2$s</xliff:g>"</string>
+    <string msgid="2561197295334830845" name="switch_role">"מתג"</string>
+    <string msgid="1672349317127674378" name="tab">"כרטיסייה"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<xliff:g id="PERCENTAGE">%1$d</xliff:g> אחוזים."</string>
+    <string name="tips_go_to_the_issue_tracker_website">תועבר לאתר איתור הבאגים.</string>
+    <string name="tips_playlist_name_placeholder">שם רשימת השמעה</string>
+    <string name="tips_search_hint">חפש בספרייה שלך...</string>
+    <string name="tips_select_at_least_one_category">עליך לבחור לפחות קטגוריה אחת.</string>
+    <string name="tips_welcome_to_magen_play">ברוכים הבאים ל-Magen Play, נגן מוזיקה קל ויפה ל-Android. </string>
+    <string name="tips_x_selected">%1$d נבחר</string>
+    <string name="title_add_playlist">הוסף לרשימת ההשמעה</string>
+    <string name="title_new_playlist">רשימת השמעה חדשה</string>
+    <string name="title_rename_playlist">שנה שם לרשימת ההשמעה</string>
+    <string name="title_up_next">הבא בתור</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"הסבר קצר"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"הצגת ההסבר הקצר"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"כבוי"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"מופעל"</string>
+</resources>

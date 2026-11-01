@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <plurals name="mtrl_badge_content_description">
+    <item quantity="one">%d thông báo mới</item>
+    <item quantity="other">%d thông báo mới</item>
+  </plurals>
+    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"Chỉ đường về nhà"</string>
+    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"Di chuyển lên"</string>
+    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"Tùy chọn khác"</string>
+    <string msgid="4692188335987374352" name="abc_action_mode_done">"Xong"</string>
+    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"Xem tất cả"</string>
+    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"Chọn một ứng dụng"</string>
+    <string msgid="4215997306490295099" name="abc_capital_off">"TẮT"</string>
+    <string msgid="884982626291842264" name="abc_capital_on">"BẬT"</string>
+    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"delete"</string>
+    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"enter"</string>
+    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Function+"</string>
+    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"space"</string>
+    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7208076849092622260" name="abc_search_hint">"Tìm kiếm…"</string>
+    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"Xóa truy vấn"</string>
+    <string msgid="693312494995508443" name="abc_searchview_description_query">"Truy vấn tìm kiếm"</string>
+    <string msgid="3417662926640357176" name="abc_searchview_description_search">"Tìm kiếm"</string>
+    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"Gửi truy vấn"</string>
+    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"Tìm kiếm bằng giọng nói"</string>
+    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"Chia sẻ với"</string>
+    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"Chia sẻ với <xliff:g id="APPLICATION_NAME">%s</xliff:g>"</string>
+    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"Thu gọn"</string>
+    <string name="about_adrian_summary">Tạo thiết kế cho trang album.</string>
+    <string name="about_aidan_follestad_summary">Bộ máy chủ đề và một vài thứ tuyệt vời khác.</string>
+    <string name="about_aleksandar_tesic_summary">Vì đã giúp tôi thiết kế.</string>
+    <string name="about_author">Tác giả</string>
+    <string name="about_donate">Hỗ trợ</string>
+    <string name="about_eugene_cheung_summary">Đối với đóng góp cho mã nguồn.</string>
+    <string name="about_follow_on_twitter">Theo dõi trên Twitter</string>
+    <string name="about_maarten_corpel_summary">Ảnh minh họa trên Play Store và ảnh bìa album rỗng.</string>
+    <string name="about_michael_cook_summary">Biểu tượng Material cho ứng dụng.</string>
+    <string name="about_report_bugs">Báo lỗi</string>
+    <string name="about_report_bugs_summary">Báo lỗi và yêu cầu tính năng mới.</string>
+    <string name="about_special_thanks_to">Trân trọng cảm ơn</string>
+    <string name="about_support_development">Hỗ trợ phát triển</string>
+    <string name="about_translate">Dịch</string>
+    <string name="about_translate_summary">Hỗ trợ dịch Magen Play sang ngôn ngữ của bạn.</string>
+    <string name="about_version">Phiên bản</string>
+    <string name="about_visit_website">Truy cập trang web</string>
+    <string name="about_write_an_email">Viết email</string>
+    <string name="accent_color">Màu phụ</string>
+    <string name="accent_color_desc">Màu sắc chủ đề.</string>
+    <string name="action_about">Thông tin</string>
+    <string name="action_add">Thêm</string>
+    <string name="action_add_to_favorites">Thêm vào danh sách yêu thích</string>
+    <string name="action_add_to_playing_queue">Thêm vào danh sách phát</string>
+    <string name="action_add_to_playlist">Thêm vào danh sách nhạc...</string>
+    <string name="action_cancel_current_timer">Hủy hẹn giờ hiện tại</string>
+    <string name="action_clear">Dọn</string>
+    <string name="action_clear_playing_queue">Dọn hàng đợi phát</string>
+    <string name="action_create">Tạo</string>
+    <string name="action_delete">Xóa</string>
+    <string name="action_delete_from_device">Xóa từ thiết bị</string>
+    <string name="action_details">Chi tiết</string>
+    <string name="action_go_to_album">Đi đến album</string>
+    <string name="action_go_to_artist">Đi đến nghệ sĩ</string>
+    <string name="action_grant">Cho phép</string>
+    <string name="action_new_playlist">Danh sách nhạc mới...</string>
+    <string name="action_next">Kế tiếp</string>
+    <string name="action_play">Phát</string>
+    <string name="action_play_next">Phát kế tiếp</string>
+    <string name="action_play_pause">Phát/Dừng</string>
+    <string name="action_previous">Trước</string>
+    <string name="action_remove">Di chuyển</string>
+    <string name="action_remove_cover">Di chuyển bìa</string>
+    <string name="action_remove_from_favorites">Xóa khỏi danh sách yêu thích</string>
+    <string name="action_remove_from_playing_queue">Xóa khỏi hàng đợi phât</string>
+    <string name="action_remove_from_playlist">Xóa khỏi danh sách nhạc</string>
+    <string name="action_rename">Đổi tên</string>
+    <string name="action_reset">Cài lại</string>
+    <string name="action_reset_artist_image">Cài lại hình nghệ sĩ</string>
+    <string name="action_save_playing_queue">Lưu hàng đợi phát</string>
+    <string name="action_save_playlist">Lưu thành tập tin</string>
+    <string name="action_save_playlists">Lưu thành mục</string>
+    <string name="action_scan">Quét</string>
+    <string name="action_scan_directory">Quét thư mục</string>
+    <string name="action_scan_media">Quét tìm nhạc</string>
+    <string name="action_search">Tìm kiếm</string>
+    <string name="action_select_all">Chọn tất cả</string>
+    <string name="action_send_bug_report">Gửi theo cách thủ công</string>
+    <string name="action_set">Đặt</string>
+    <string name="action_set_artist_image">Đặt hình nghệ sĩ</string>
+    <string name="action_set_as_ringtone">Cài làm nhạc chuông</string>
+    <string name="action_set_as_start_directory">Đặt làm thư mục bắt đầu</string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="action_share">Chia sẻ</string>
+    <string name="action_shuffle_album">Trộn album</string>
+    <string name="action_shuffle_all">Trộn tất cả</string>
+    <string name="action_shuffle_artist">Trộn nghệ sĩ</string>
+    <string name="action_shuffle_playlist">Trộn danh sách nhạc</string>
+    <string name="action_sleep_timer">Hẹn giờ ngủ</string>
+    <string name="action_tag_editor">Chỉnh sửa thẻ</string>
+    <string name="action_update_image">Cập nhật hình ảnh</string>
+    <string name="action_web_search">Tìm kiếm trên Web</string>
+    <string msgid="8719607706653693137" name="androidx_compose_foundation_autofill">"Tự động điền"</string>
+    <string msgid="1150566100598813236" name="androidx_compose_ui_autofill">"Tự động điền"</string>
+    <string name="app_intro_back_button">QUAY LẠI</string>
+    <string name="app_intro_done_button">HOÀN THÀNH</string>
+    <string name="app_intro_image_content_description">hình ảnh</string>
+    <string name="app_intro_next_button">TIẾP TỤC</string>
+    <string name="app_intro_skip_button">BỎ QUA</string>
+    <string name="app_shortcut_last_added_short">Thêm gần đây nhất</string>
+    <string name="app_shortcut_shuffle_all_short">Xáo trộn</string>
+    <string name="app_shortcut_top_tracks_short">Bài hát hàng đầu</string>
+    <string name="app_widget_big_name">Magen Play - Lớn</string>
+    <string name="app_widget_card_name">Magen Play - Thẻ</string>
+    <string name="app_widget_classic_name">Magen Play - Cổ điển</string>
+    <string name="app_widget_small_name">Magen Play - Nhỏ</string>
+    <string name="bottomsheet_action_collapse">Thu gọn bảng dưới cùng</string>
+    <string name="bottomsheet_action_expand">Mở rộng bảng dưới cùng</string>
+    <string name="bottomsheet_action_expand_halfway">Mở rộng một nửa</string>
+    <string name="bottomsheet_drag_handle_clicked">Đã nhấn đúp nút kéo</string>
+    <string name="bottomsheet_drag_handle_content_description">Nút kéo</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"Trả lời"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"Video"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"Từ chối"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"Kết thúc"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"Cuộc gọi đến"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"Cuộc gọi đang thực hiện"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"Đang sàng lọc cuộc gọi đến"</string>
+    <string name="character_counter_content_description">Đã nhập %1$d trong số %2$d ký tự</string>
+    <string name="character_counter_overflowed_content_description">Đã vượt quá giới hạn ký tự %1$d/%2$d</string>
+    <string name="clear_text_end_icon_content_description">Xóa văn bản</string>
+    <string msgid="406453423630273620" name="close_drawer">"Đóng trình đơn điều hướng"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"Đóng trang tính"</string>
+    <string msgid="6083905920877235314" name="copy">"Sao chép"</string>
+    <string msgid="8038256446254964252" name="default_error_message">"Giá trị nhập không hợp lệ"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"Cửa sổ bật lên"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"Trình đơn thả xuống"</string>
+    <string name="err_audio_focus_denied">Âm thanh trọng tâm bị từ chối.</string>
+    <string name="err_biography_unavailable">Kh\u00f4ng t\u00ecm th\u1ea5y m\u1ee5c nh\u1eadp ti\u1ec3u s\u1eed c\u1ee7a ngh\u1ec7 s\u0129.</string>
+    <string name="err_could_not_create_playlist">Kh\u00f4ng th\u1ec3 t\u1ea1o danh s\u00e1ch nh\u1ea1c.</string>
+    <string name="err_could_not_scan_files">Không thể quét %d tập tin.</string>
+    <string name="err_failed_to_save_playlist">Không thể lưu danh sách nhạc (%s).</string>
+    <string name="err_no_audio_ID">Phát một bài hát đầu tiên, sau đó thử lại.</string>
+    <string name="err_no_equalizer">Không có bộ lọc âm thanh nào.</string>
+    <string name="err_permission_external_storage_denied">Quyền truy cập lưu trữ bên ngoài bị từ chối.</string>
+    <string name="err_permissions_denied">Quyền hạn bị từ chối.</string>
+    <string name="err_playlist_exists">Danh sách %1$s đã tồn tại.</string>
+    <string name="err_unplayable_file">Kh\u00f4ng th\u1ec3 ph\u00e1t b\u00e0i h\u00e1t n\u00e0y.</string>
+    <string name="err_wiki_unavailable">Kh\u00f4ng t\u00ecm th\u1ea5y m\u1ee5c wiki cho album n\u00e0y.</string>
+    <string name="error_a11y_label">Lỗi: không hợp lệ</string>
+    <string name="error_icon_content_description">Lỗi</string>
+    <string msgid="2427401033573778270" name="expand_button_title">"Nâng cao"</string>
+    <string name="exposed_dropdown_menu_content_description">Hiển thị menu thả xuống</string>
+    <string name="icon_content_description">Biểu tượng hộp thoại</string>
+    <string msgid="6827826412747255547" name="in_progress">"Đang thực hiện"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"Đã kiểm tra một phần"</string>
+    <string name="item_view_role_description">Thẻ</string>
+    <string name="label_album_artist">Album của nghệ sĩ</string>
+    <string name="label_albums">Album</string>
+    <string name="label_artist">Nghệ sĩ</string>
+    <string name="label_artists">Nghệ sĩ</string>
+    <string name="label_biography">Tiểu sử</string>
+    <string name="label_bit_rate">Lượng dữ liệu</string>
+    <string name="label_blacklist">Danh sách đen</string>
+    <string name="label_changelog">Các thay đổi</string>
+    <string name="label_colored_footers">Màu cuối trang</string>
+    <string name="label_description">Mô tả</string>
+    <string name="label_details">Chi tiết</string>
+    <string name="label_device_info">Thông tin thiết bị</string>
+    <string name="label_equalizer">Bộ lọc âm thanh</string>
+    <string name="label_file_format">Định dạng</string>
+    <string name="label_file_name">Tên tập tin</string>
+    <string name="label_file_path">Đường dẫn tập tin</string>
+    <string name="label_file_size">Kích thước</string>
+    <string name="label_folders">Thư mục</string>
+    <string name="label_genre">Thể loại</string>
+    <string name="label_genres">Thể loại</string>
+    <string name="label_grid_size">Kích thước lưới</string>
+    <string name="label_grid_size_land">Kích thước lưới (màn hình nằm ngang)</string>
+    <string name="label_intro">Giới thiệu</string>
+    <string name="label_library_categories">Danh mục thư viện</string>
+    <string name="label_licenses">Giấy phép</string>
+    <string name="label_lyrics">Lời bài hát</string>
+    <string name="label_playing_queue">Hàng đợi phát</string>
+    <string name="label_playlists">Danh sách nhạc</string>
+    <string name="label_sampling_rate">Tỉ lệ mẫu</string>
+    <string name="label_song">Bài hát</string>
+    <string name="label_songs">Bài hát</string>
+    <string name="label_sort_order">Thứ tự sắp xếp</string>
+    <string name="label_title">Tiêu đề</string>
+    <string name="label_track_length">Độ dài</string>
+    <string name="label_website">Trang web</string>
+    <string name="label_year">Năm</string>
+    <string name="material_clock_toggle_content_description">Chọn SA hoặc CH</string>
+    <string name="material_hour_24h_suffix">%1$s giờ</string>
+    <string name="material_hour_selection">Chọn giờ</string>
+    <string name="material_hour_suffix">%1$s giờ</string>
+    <string name="material_minute_selection">Chọn phút</string>
+    <string name="material_minute_suffix">%1$s phút</string>
+    <string name="material_timepicker_am">SA</string>
+    <string name="material_timepicker_clock_mode_description">Chuyển sang chế độ đồng hồ để nhập thời gian.</string>
+    <string name="material_timepicker_hour">Giờ</string>
+    <string name="material_timepicker_minute">Phút</string>
+    <string name="material_timepicker_pm">CH</string>
+    <string name="material_timepicker_select_time">Chọn thời gian</string>
+    <string name="material_timepicker_text_input_mode_description">Chuyển sang chế độ nhập văn bản để nhập thời gian.</string>
+    <string msgid="8471891128988107974" name="mc2_snackbar_pane_title">"Cảnh báo"</string>
+    <string name="msg_added_title_to_playing_queue">Đã thêm 1 bài vào hàng đợi phát.</string>
+    <string name="msg_added_x_titles_to_playing_queue">Đã thêm %1$d bài vào hàng đợi phát.</string>
+    <string name="msg_copied_device_info_to_clipboard">Đã sao chép thông tin thiết bị vào bảng nhớ tạm (Clipboard).</string>
+    <string name="msg_created_playlist_x">Đã tạo danh sách nhạc %1$s.</string>
+    <string name="msg_empty">Trống</string>
+    <string name="msg_empty_playlist">Danh sách nhạc trống</string>
+    <string name="msg_inserted_x_songs_into_playlist_x">Đã thêm %1$d baifhats vào danh sách nhạc %2$s</string>
+    <string name="msg_new_start_directory">%s là thư mục khởi đầu.</string>
+    <string name="msg_no_playlists">Không có danh sách nhạc</string>
+    <string name="msg_no_results">Không có kết quả</string>
+    <string name="msg_nothing_to_scan">Không có gì để quét.</string>
+    <string name="msg_scanned_files">Đã quét %1$d của %2$d tập tin.</string>
+    <string name="msg_sleep_timer_canceled">Đã hủy hẹn giờ ngủ</string>
+    <string name="msg_sleep_timer_set">Hẹn giờ ngủ được cài cho %d phút từ bây giờ.</string>
+    <string name="mtrl_badge_numberless_content_description">Thông báo mới</string>
+    <string name="mtrl_checkbox_state_description_checked">Đã đánh dấu</string>
+    <string name="mtrl_checkbox_state_description_indeterminate">Đã đánh dấu một phần</string>
+    <string name="mtrl_checkbox_state_description_unchecked">Chưa đánh dấu</string>
+    <string name="mtrl_chip_close_icon_content_description">Xóa %1$s</string>
+    <string name="mtrl_exceed_max_badge_number_content_description" ns1:ignore="PluralsCandidate">Hơn %1$d thông báo mới</string>
+    <string name="mtrl_picker_a11y_next_month">Chuyển sang tháng tiếp theo</string>
+    <string name="mtrl_picker_a11y_prev_month">Chuyển về tháng trước</string>
+    <string name="mtrl_picker_announce_current_range_selection">Ngày bắt đầu được chọn: %1$s – Ngày kết thúc được chọn: %2$s</string>
+    <string name="mtrl_picker_announce_current_selection">Lựa chọn hiện tại: %1$s</string>
+    <string name="mtrl_picker_announce_current_selection_none">không có</string>
+    <string name="mtrl_picker_cancel">Hủy</string>
+    <string name="mtrl_picker_confirm">OK</string>
+    <string name="mtrl_picker_date_header_selected">%1$s</string>
+    <string name="mtrl_picker_date_header_title">Chọn ngày</string>
+    <string name="mtrl_picker_date_header_unselected">Ngày đã chọn</string>
+    <string name="mtrl_picker_day_of_week_column_header">%1$s</string>
+    <string name="mtrl_picker_end_date_description">Ngày kết thúc %1$s</string>
+    <string name="mtrl_picker_invalid_format">Định dạng không hợp lệ.</string>
+    <string name="mtrl_picker_invalid_format_example">Ví dụ: %1$s</string>
+    <string name="mtrl_picker_invalid_format_use">Sử dụng: %1$s</string>
+    <string name="mtrl_picker_invalid_range">Phạm vi không hợp lệ.</string>
+    <string name="mtrl_picker_navigate_to_current_year_description">Chuyển đến năm hiện tại %1$d</string>
+    <string name="mtrl_picker_navigate_to_year_description">Chuyển tới năm %1$d</string>
+    <string name="mtrl_picker_out_of_range">Nằm ngoài phạm vi: %1$s</string>
+    <string name="mtrl_picker_range_header_only_end_selected">Ngày bắt đầu – %1$s</string>
+    <string name="mtrl_picker_range_header_only_start_selected">%1$s – Ngày kết thúc</string>
+    <string name="mtrl_picker_range_header_selected">%1$s – %2$s</string>
+    <string name="mtrl_picker_range_header_title">Chọn dải ô</string>
+    <string name="mtrl_picker_range_header_unselected">Ngày bắt đầu – Ngày kết thúc</string>
+    <string name="mtrl_picker_save">Lưu</string>
+    <string name="mtrl_picker_start_date_description">Ngày bắt đầu %1$s</string>
+    <string name="mtrl_picker_text_input_date_hint">Ngày</string>
+    <string name="mtrl_picker_text_input_date_range_end_hint">Ngày kết thúc</string>
+    <string name="mtrl_picker_text_input_date_range_start_hint">Ngày bắt đầu</string>
+    <string name="mtrl_picker_text_input_day_abbr">d</string>
+    <string name="mtrl_picker_text_input_month_abbr">m</string>
+    <string name="mtrl_picker_text_input_year_abbr">y</string>
+    <string name="mtrl_picker_today_description">Hôm nay %1$s</string>
+    <string name="mtrl_picker_toggle_to_calendar_input_mode">Chuyển sang chế độ nhập lịch</string>
+    <string name="mtrl_picker_toggle_to_day_selection">Nhấn để chuyển sang chế độ xem theo lịch</string>
+    <string name="mtrl_picker_toggle_to_text_input_mode">Chuyển sang chế độ nhập văn bản</string>
+    <string name="mtrl_picker_toggle_to_year_selection">Nhấn để chuyển sang chế độ xem theo năm</string>
+    <string name="mtrl_timepicker_cancel">Huỷ</string>
+    <string name="mtrl_timepicker_confirm">OK</string>
+    <string msgid="542007171693138492" name="navigation_menu">"Trình đơn điều hướng"</string>
+    <string msgid="6610465462668679431" name="not_selected">"Chưa chọn"</string>
+    <string msgid="6573031135582639649" name="not_set">"Chưa đặt"</string>
+    <string name="notification_playing_description">Thông báo đang phát cung cấp các hành động để phát / tạm dừng vv.</string>
+    <string name="notification_playing_name">Thông báo đang phát</string>
+    <string name="option_finish_current_music_sleep_timer">Phát hết bài cuối</string>
+    <string name="password_toggle_content_description">Hiện mật khẩu</string>
+    <string name="playlist_favorites">Yêu thích</string>
+    <string name="playlist_history">Phát gần đây</string>
+    <string name="playlist_last_added">Được thêm sau cùng</string>
+    <string name="playlist_my_top_tracks">Bài hát hàng đầu</string>
+    <string name="pref_header_audio">Âm thanh</string>
+    <string name="pref_header_colors">Màu sắc</string>
+    <string name="pref_header_images">Hình ảnh</string>
+    <string name="pref_header_library">Thư viện</string>
+    <string name="pref_header_notification">Thông báo</string>
+    <string name="pref_header_now_playing_screen">Đang phát</string>
+    <string name="pref_header_playlists">Danh sách nhạc</string>
+    <string name="pref_summary_audio_ducking">Thông báo, điều hướng, vv.</string>
+    <string name="pref_summary_classic_notification">Sử dụng thiết kế thông báo cổ điển.</string>
+    <string name="pref_summary_colored_app_shortcuts">Màu sắc chủ đạo của biểu tượng ứng dụng.</string>
+    <string name="pref_summary_colored_navigation_bar">Màu sắc thanh điều hướng trong các màu cơ bản.</string>
+    <string name="pref_summary_colored_notification">M\u00e0u s\u1eafc r\u1ef1c r\u1ee1 cho c\u00e1c th\u00f4ng b\u00e1o trong b\u00eca album.</string>
+    <string name="pref_summary_gapless_playback">Có thể gây ra các vấn đề phát trên một số thiết bị.</string>
+    <string name="pref_summary_library_categories">Cấu hình khả năng hiển thị và thứ tự của các danh mục thư viện.</string>
+    <string name="pref_summary_remember_last_tab">Mở thẻ đã phát cuối cùng khi mở ứng dụng</string>
+    <string name="pref_summary_synchronized_lyrics_show">Hiện tại chỉ được đồng bộ lời bài hát ở định dạng LRC. Nhúng hoặc là một tập tin riêng biệt.</string>
+    <string name="pref_title_app_shortcuts">Màu sắc biểu tượng ứng dụng</string>
+    <string name="pref_title_audio_ducking">Giảm âm lượng khi mất tập trung</string>
+    <string name="pref_title_classic_notification">Thiết kế thông báo cổ điển</string>
+    <string name="pref_title_colored_notification">Màu thông báo</string>
+    <string name="pref_title_gapless_playback">Phát lại quãng lặng</string>
+    <string name="pref_title_general_theme">Chủ đề chung</string>
+    <string name="pref_title_last_added_interval">Thời gian danh sách nhạc được thêm vào sau cùng</string>
+    <string name="pref_title_navigation_bar">Màu thanh điều hướng</string>
+    <string name="pref_title_now_playing_screen_appearance">Giao diện</string>
+    <string name="pref_title_remember_last_tab">Nhớ thẻ cuối cùng</string>
+    <string name="pref_title_remember_shuffle">Nhớ phát ngẫu nhiên</string>
+    <string name="pref_title_synchronized_lyrics_show">Hiển thị lời bài hát được đồng bộ</string>
+    <string msgid="6685851473431805375" name="preference_copied">"Đã sao chép \"<xliff:g id="SUMMARY">%1$s</xliff:g>\" vào bảng nhớ tạm."</string>
+    <string name="primary_color">Màu chính</string>
+    <string name="primary_color_desc">Màu sắc chính.</string>
+    <string msgid="5941395253238309765" name="range_end">"Điểm kết thúc phạm vi"</string>
+    <string msgid="7097486360902471446" name="range_start">"Điểm bắt đầu phạm vi"</string>
+    <string msgid="6264217191555673260" name="search_menu_title">"Tìm kiếm"</string>
+    <string name="searchview_clear_text_content_description">Xoá văn bản</string>
+    <string name="searchview_navigation_content_description">Quay lại</string>
+    <string msgid="6043586758067023" name="selected">"Đã chọn"</string>
+    <string name="side_sheet_accessibility_pane_title">Trang bên</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"Cảnh báo"</string>
+    <string name="sort_order_a_z">Tăng dần</string>
+    <string name="sort_order_artist">Nghệ sĩ</string>
+    <string name="sort_order_year">Năm</string>
+    <string name="sort_order_z_a">Giảm dần</string>
+    <string msgid="4139871816613051306" name="state_empty">"Trống"</string>
+    <string msgid="5834637030682409883" name="state_off">"Đang tắt"</string>
+    <string msgid="1490883874751719580" name="state_on">"Đang bật"</string>
+    <string name="state_saving_changes">Đang lưu thay đổi</string>
+    <string name="state_updating">Đang cập nhật...</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="9167775378838880170" name="summary_collapsed_preference_list">"<xliff:g id="CURRENT_ITEMS">%1$s</xliff:g>, <xliff:g id="ADDED_ITEMS">%2$s</xliff:g>"</string>
+    <string msgid="2561197295334830845" name="switch_role">"Chuyển"</string>
+    <string msgid="1672349317127674378" name="tab">"Thẻ"</string>
+    <string msgid="5946805113151406391" name="template_percent">"<xliff:g id="PERCENTAGE">%1$d</xliff:g>%%."</string>
+    <string name="tips_go_to_the_issue_tracker_website">Bạn sẽ được đưa đến trang web theo dõi vấn đề.</string>
+    <string name="tips_playlist_name_placeholder">Tên danh sách nhạc</string>
+    <string name="tips_ringtone_settings">Cho phép Magen Play thay đổi cài đặt âm thanh</string>
+    <string name="tips_search_hint">Tìm kiếm thư viện của bạn...</string>
+    <string name="tips_select_at_least_one_category">Bạn phải chọn ít nhất một danh mục.</string>
+    <string name="tips_welcome_to_magen_play">Chào mừng bạn đến Magen Play, một máy nghe nhạc đẹp và nhẹ cho Android.</string>
+    <string name="tips_x_selected">Đã chọn %1$d</string>
+    <string name="title_add_playlist">Thêm vào danh sách nhạc</string>
+    <string name="title_dialog_ringtone">Cài nhạc chuông</string>
+    <string name="title_new_playlist">Danh sách nhạc mới</string>
+    <string name="title_rename_playlist">Đổi tên danh sách nhạc</string>
+    <string name="title_up_next">Tiếp theo</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"chú thích"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"hiện chú thích"</string>
+    <string msgid="3140233346420563315" name="v7_preference_off">"TẮT"</string>
+    <string msgid="89551595707643515" name="v7_preference_on">"BẬT"</string>
+</resources>
