@@ -42,7 +42,7 @@ data class ActualLrcLyrics(
 
     override fun getLine(timestamp: Int): Pair<String, Long> {
         val index = getLineNumber(timestamp)
-        if (index in 0..lyrics.size()) {
+        if (index in 0 until lyrics.size()) {
             val currentLine = lyrics.valueAt(index)
                 .replace(Regex("""\\[nNrR]"""), "\n")
             val length: Long =

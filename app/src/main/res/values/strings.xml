@@ -141,6 +141,7 @@
     <string name="label_embedded_lyrics">embedded lyrics</string>
     <string name="label_external_lyrics">external lyrics</string>
     <string name="label_loaded">loaded</string>
+    <string name="label_ai_translation">AI translation</string>
     <string name="label_databases">Databases</string>
     <string name="label_path_selector">File Selector</string>
     <string name="label_single_item">Single Item</string>
@@ -615,4 +616,46 @@
         <item quantity="one">%1$d / %2$d item was successfully deleted.</item>
         <item quantity="other">%1$d / %2$d items were successfully deleted.</item>
     </plurals>
+
+    <!-- AI Translation -->
+    <string name="pref_header_ai_translation">AI Translation</string>
+    <string name="pref_title_enable_ai_translation">Translate lyrics with AI</string>
+    <string name="pref_summary_enable_ai_translation">Fetch an AI-translated copy of the lyrics in your chosen language and add it alongside the original</string>
+    <string name="pref_title_ai_provider">AI Provider</string>
+    <string name="pref_summary_ai_provider">Choose the LLM provider for translation (all use OpenAI-compatible API)</string>
+    <string name="ai_provider_deepseek">DeepSeek</string>
+    <string name="ai_provider_openai">OpenAI</string>
+    <string name="ai_provider_openrouter">OpenRouter</string>
+    <string name="ai_provider_gemini">Google Gemini</string>
+    <string name="ai_provider_ollama">Ollama (local)</string>
+    <string name="ai_provider_custom">Custom</string>
+    <string name="pref_title_ai_api_key">API Key</string>
+    <string name="pref_summary_ai_api_key">Tap to enter your provider API key</string>
+    <string name="tip_ai_api_key_safety">Your API key is stored only on this device, in the app\'s private settings. It is sent only to the provider you choose.</string>
+    <string name="pref_title_ai_target_lang">Target Language</string>
+    <string name="pref_summary_ai_target_lang">Language to translate lyrics into</string>
+    <string name="pref_title_ai_model">Model</string>
+    <string name="pref_summary_ai_model">Model name (e.g. deepseek-chat, gpt-4o-mini). Leave blank to use provider default.</string>
+    <string name="pref_title_ai_endpoint">Custom API Endpoint</string>
+    <string name="pref_summary_ai_endpoint">Base URL like https://api.deepseek.com (without /v1/…). Leave blank for provider default.</string>
+    <string name="pref_title_ai_advanced">Advanced AI Settings</string>
+    <string name="pref_summary_ai_advanced">Custom model name and API endpoint</string>
+    <string name="lang_ar">Arabic</string>
+    <string name="lang_en">English</string>
+    <string name="lang_es">Spanish</string>
+    <string name="lang_fr">French</string>
+    <string name="lang_de">German</string>
+    <string name="lang_it">Italian</string>
+    <string name="lang_ru">Russian</string>
+    <string name="lang_tr">Turkish</string>
+    <string name="lang_fa">Persian</string>
+    <string name="lang_ur">Urdu</string>
+    <string name="lang_hi">Hindi</string>
+    <string name="lang_id">Indonesian</string>
+    <string name="lang_zh_cn">Chinese (Simplified)</string>
+    <string name="lang_zh_tw">Chinese (Traditional)</string>
+    <string name="lang_ja">Japanese</string>
+    <string name="lang_ko">Korean</string>
+    <string name="lang_pt">Portuguese</string>
+    <string name="lang_nl">Dutch</string>
 </resources>

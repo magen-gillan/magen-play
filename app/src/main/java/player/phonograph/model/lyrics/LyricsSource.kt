@@ -13,6 +13,7 @@ enum class LyricsSource : Parcelable {
     ExternalPrecise,
     ExternalDecorated,
     ManuallyLoaded,
+    AIGenerated,
     Unknown;
 
 }

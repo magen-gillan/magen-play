@@ -42,3 +42,40 @@
 -keepclassmembernames,allowoptimization,allowshrinking class player.phonograph.mechanism.* extends player.phonograph.mechanism.IUriParser { public <methods>; }
 
 -keepclassmembernames,allowoptimization,allowshrinking class player.phonograph.mechanism.coil.retriever.FetcherDelegate { abstract <methods>; }
+###############
+# AI Translation (v2.1.0+)
+###############
+# Keep AITranslator and its helpers so OkHttp/Retrofit reflection works.
+-keep class player.phonograph.mechanism.lyrics.AITranslator { *; }
+-keep class player.phonograph.mechanism.lyrics.AITranslator$* { *; }
+-keep class player.phonograph.ui.modules.setting.dialog.AiTranslation*Dialog { *; }
+
+###############
+# kotlinx.serialization — keep @Serializable classes & generated serializers
+###############
+-keepattributes RuntimeVisibleAnnotations,AnnotationDefault
+-keep,includedescriptorclasses class **$$serializer { *; }
+-keepclassmembers class * {
+    @kotlinx.serialization.Serializable <fields>;
+}
+-keepclassmembers @kotlinx.serialization.Serializable class * {
+    *** Companion;
+}
+-keepclasseswithmembers class * {
+    kotlinx.serialization.KSerializer serializer(...);
+}
+# Keep the JsonElement/JsonObject builders we use for AI request composition
+-keep class kotlinx.serialization.json.** { *; }
+
+###############
+# OkHttp / Okio — needed because we use okhttp3 directly in AITranslator
+###############
+-dontwarn okhttp3.internal.platform.**
+-dontwarn org.conscrypt.**
+-dontwarn org.bouncycastle.**
+-dontwarn org.openjsse.**
+
+###############
+# Coil image loading (used heavily for album/folder art)
+###############
+-keep class coil.** { *; }

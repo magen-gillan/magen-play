@@ -20,6 +20,7 @@ class SettingsViewModel : ViewModel() {
            when (_currentPage.value) {
                PAGE_APPEARANCE   -> R.string.pref_category_appearance
                PAGE_CONTENT      -> R.string.pref_category_content
+               PAGE_LYRICS       -> R.string.label_lyrics
                PAGE_BEHAVIOUR    -> R.string.pref_category_behaviour
                PAGE_NOTIFICATION -> R.string.pref_category_notification
                PAGE_ADVANCED     -> R.string.pref_category_advanced
@@ -37,6 +38,7 @@ class SettingsViewModel : ViewModel() {
         const val PAGE_HOME = "home"
         const val PAGE_APPEARANCE = "appearance"
         const val PAGE_CONTENT = "content"
+        const val PAGE_LYRICS = "lyrics"
         const val PAGE_BEHAVIOUR = "behaviours"
         const val PAGE_NOTIFICATION = "notification"
         const val PAGE_ADVANCED = "advanced"

@@ -93,6 +93,18 @@ class MainActivity : AbsSlidingMusicPanelActivity(),
 
         drawerViewModel.observeSettings(this, lifecycle)
 
+        // Drawer listener registered once in onCreate (NOT inside repeatOnLifecycle)
+        // to avoid leaking N listeners across pagesConfig emissions.
+        viewBinding.drawerLayout.addDrawerListener(object : SimpleDrawerListener() {
+            override fun onDrawerOpened(drawerView: View) {
+                onBackPressedDispatcher.addCallback(this@MainActivity, drawerBackPressedCallback)
+            }
+
+            override fun onDrawerClosed(drawerView: View) {
+                drawerBackPressedCallback.remove()
+            }
+        })
+
         lifecycleScope.launch {
             lifecycle.repeatOnLifecycle(Lifecycle.State.CREATED) {
                 drawerViewModel.pages.collect { pagesConfig ->
@@ -140,17 +152,6 @@ class MainActivity : AbsSlidingMusicPanelActivity(),
             setItemIconColors(iconColor, accentColor())
             setItemTextColors(textColorPrimary(context), accentColor())
         }
-
-        // listener
-        viewBinding.drawerLayout.addDrawerListener(object : SimpleDrawerListener() {
-            override fun onDrawerOpened(drawerView: View) {
-                onBackPressedDispatcher.addCallback(this@MainActivity, drawerBackPressedCallback)
-            }
-
-            override fun onDrawerClosed(drawerView: View) {
-                drawerBackPressedCallback.remove()
-            }
-        })
 
         // States
         observe(queueViewModel.currentSong) { song -> updateNavigationDrawerHeader(song) }
@@ -242,7 +243,9 @@ class MainActivity : AbsSlidingMusicPanelActivity(),
                     )
                 )
             }
-            Settings(this@MainActivity)[Keys.lastCheckUpgradeTimeStamp].data = System.currentTimeMillis()
+            Settings(this@MainActivity)[Keys.lastCheckUpgradeTimeStamp].edit {
+                System.currentTimeMillis()
+            }
         }
     }
 

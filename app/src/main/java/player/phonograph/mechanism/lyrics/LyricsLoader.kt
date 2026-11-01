@@ -4,6 +4,7 @@
 
 package player.phonograph.mechanism.lyrics
 
+import player.phonograph.App
 import player.phonograph.debug
 import player.phonograph.foundation.file.stripExtension
 import player.phonograph.mechanism.metadata.read.JAudioTaggerExtractor
@@ -11,6 +12,8 @@ import player.phonograph.model.lyrics.AbsLyrics
 import player.phonograph.model.lyrics.LrcLyrics
 import player.phonograph.model.lyrics.LyricsInfo
 import player.phonograph.model.lyrics.LyricsSource
+import player.phonograph.settings.Keys
+import player.phonograph.settings.Settings
 import android.content.ContentResolver
 import android.net.Uri
 import android.util.Log
@@ -93,7 +96,31 @@ object LyricsLoader {
         val activated: Int = all.indexOfFirst { it is LrcLyrics }
 
         // end of fetching
-        return LyricsInfo(all, activated)
+        var result = LyricsInfo(all, activated)
+
+        // AI translation (optional): if enabled and we have any lyrics, append a translated copy
+        // Guard against App.instance being uninitialized (it's lateinit).
+        val context = try { App.instance } catch (_: UninitializedPropertyAccessException) { null }
+        if (context != null) {
+            try {
+                val settings = Settings(context)
+                val aiEnabled = settings[Keys.enableAiTranslation].data
+                if (aiEnabled && result.isNotEmpty()) {
+                    val sourceLyrics = result.activatedLyrics ?: result.firstOrNull()
+                    if (sourceLyrics != null) {
+                        val translated = AITranslator.translate(context, sourceLyrics)
+                        if (translated != null) {
+                            result = LyricsInfo.withAppended(result, translated)
+                            Log.i(TAG, "AI translation appended to lyrics list")
+                        }
+                    }
+                }
+            } catch (e: Exception) {
+                Log.e(TAG, "AI translation failed (non-fatal)", e)
+            }
+        }
+
+        return result
     }
 
     private fun <T> trySearch(block: () -> List<T>): List<T> =

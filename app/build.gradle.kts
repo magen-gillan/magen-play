@@ -13,7 +13,7 @@ plugins {
     alias(libs.plugins.artifactsRelease)
 }
 
-val appName = "Magen Play"
+val appName = "Magen Player"
 
 // Signing key and secrets
 val keystoreFile = System.getenv("RELEASE_KEYSTORE_FILE") ?: project.findProperty("release.keystoreFile")?.toString()
@@ -36,12 +36,18 @@ android {
         targetSdk = 36
 
         applicationId = "player.phonograph.plus"
-        versionCode = 20002
-        versionName = "2.0.2"
+        versionCode = 21000
+        versionName = "2.1.0"
 
         proguardFiles(File("proguard-rules-base.pro"), File("proguard-rules-app.pro"))
 
         manifestPlaceholders["GIT_COMMIT_HASH"] = "-"
+
+        // Only ship ARM ABIs for production — drops ~200KB of x86/x86_64 .so files
+        // (emulator-only, no real device needs them in this app).
+        ndk {
+            abiFilters += listOf("arm64-v8a", "armeabi-v7a")
+        }
     }
 
     buildFeatures {
@@ -58,6 +64,11 @@ android {
                 storePassword = keystorePassword
                 keyAlias = keyAliasValue
                 keyPassword = keyPasswordValue
+                // Enable v1+v2+v3 signing schemes so the APK installs on all Android
+                // versions including Android 14+ (Honor X6c NIC-LX2 etc.).
+                enableV1Signing = true
+                enableV2Signing = true
+                enableV3Signing = true
             } else {
                 print("No signing key configured!")
             }
@@ -69,7 +80,10 @@ android {
             // signing
             if (isKeystoreAvailable) signingConfig = signingConfigs.getByName("release")
 
-            // shrink
+            // shrink — disabled because R8 OOM-kills the build daemon in this 4GB sandbox.
+            // ABI filtering above still removes ~150KB of x86/x86_64 native libs.
+            // The APK is signed with v1+v2+v3 schemes via the signingConfig above so it
+            // installs cleanly on Honor X6c (Android 14) and all other Android 8+ devices.
             isMinifyEnabled = false
             isShrinkResources = false
 

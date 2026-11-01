@@ -88,6 +88,7 @@
     <string name="label_track">رقم المقطع الصوتي</string>
     <string name="label_track_total">مجموع عدد المقاطع</string>
     <string name="label_lyrics">كلمات الأغاني</string>
+    <string name="label_ai_translation">ترجمة بالذكاء الصناعي</string>
     <string name="label_preferences">التفضيلات</string>
     <string name="label_details">التفاصيل</string>
     <string name="label_title">العنوان</string>
@@ -255,4 +256,46 @@
     <string name="sort_order_album_count">اعداد الالبومات</string>
     <string name="sort_order_size">حجم الملف</string>
     <string name="sort_order_path">المسار</string>
+
+    <!-- AI Translation -->
+    <string name="pref_header_ai_translation">الترجمة بالذكاء الصناعي</string>
+    <string name="pref_title_enable_ai_translation">ترجمة كلمات الأغنية بالذكاء الصناعي</string>
+    <string name="pref_summary_enable_ai_translation">إحضار نسخة مترجمة من كلمات الأغنية باللغة المختارة وإضافتها بجانب النص الأصلي</string>
+    <string name="pref_title_ai_provider">مزود الذكاء الصناعي</string>
+    <string name="pref_summary_ai_provider">اختر مزود نماذج اللغة للترجمة (جميعها يستخدم واجهة برمجية متوافقة مع OpenAI)</string>
+    <string name="ai_provider_deepseek">DeepSeek</string>
+    <string name="ai_provider_openai">OpenAI</string>
+    <string name="ai_provider_openrouter">OpenRouter</string>
+    <string name="ai_provider_gemini">Google Gemini</string>
+    <string name="ai_provider_ollama">Ollama (محلي)</string>
+    <string name="ai_provider_custom">مخصص</string>
+    <string name="pref_title_ai_api_key">مفتاح الواجهة البرمجية</string>
+    <string name="pref_summary_ai_api_key">انقر لإدخال مفتاح الواجهة البرمجية الخاص بمزودك</string>
+    <string name="tip_ai_api_key_safety">يتم تخزين مفتاح الواجهة البرمجية على هذا الجهاز فقط، في إعدادات التطبيق الخاصة. ويُرسل فقط إلى المزود الذي تختاره.</string>
+    <string name="pref_title_ai_target_lang">اللغة الهدف</string>
+    <string name="pref_summary_ai_target_lang">اللغة التي تريد ترجمة الكلمات إليها</string>
+    <string name="pref_title_ai_model">النموذج</string>
+    <string name="pref_summary_ai_model">اسم النموذج (مثل deepseek-chat، gpt-4o-mini). اتركه فارغاً لاستخدام الافتراضي للمزود.</string>
+    <string name="pref_title_ai_endpoint">عنوان واجهة برمجية مخصص</string>
+    <string name="pref_summary_ai_endpoint">الرابط الأساسي مثل https://api.deepseek.com (بدون /v1/...). اتركه فارغاً لاستخدام الافتراضي للمزود.</string>
+    <string name="pref_title_ai_advanced">إعدادات الذكاء الصناعي المتقدمة</string>
+    <string name="pref_summary_ai_advanced">اسم النموذج المخصص وعنوان الواجهة البرمجية</string>
+    <string name="lang_ar">العربية</string>
+    <string name="lang_en">الإنجليزية</string>
+    <string name="lang_es">الإسبانية</string>
+    <string name="lang_fr">الفرنسية</string>
+    <string name="lang_de">الألمانية</string>
+    <string name="lang_it">الإيطالية</string>
+    <string name="lang_ru">الروسية</string>
+    <string name="lang_tr">التركية</string>
+    <string name="lang_fa">الفارسية</string>
+    <string name="lang_ur">الأردية</string>
+    <string name="lang_hi">الهندية</string>
+    <string name="lang_id">الإندونيسية</string>
+    <string name="lang_zh_cn">الصينية المبسطة</string>
+    <string name="lang_zh_tw">الصينية التقليدية</string>
+    <string name="lang_ja">اليابانية</string>
+    <string name="lang_ko">الكورية</string>
+    <string name="lang_pt">البرتغالية</string>
+    <string name="lang_nl">الهولندية</string>
 </resources>

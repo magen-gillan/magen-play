@@ -22,6 +22,7 @@ import player.phonograph.model.coil.IMAGE_SOURCE_J_AUDIO_TAGGER
 import player.phonograph.model.coil.IMAGE_SOURCE_MEDIA_METADATA_RETRIEVER
 import player.phonograph.model.coil.IMAGE_SOURCE_MEDIA_STORE
 import player.phonograph.model.lyrics.LyricsSource
+import player.phonograph.model.lyrics.LyricsSource.AIGenerated
 import player.phonograph.model.lyrics.LyricsSource.Embedded
 import player.phonograph.model.lyrics.LyricsSource.ExternalDecorated
 import player.phonograph.model.lyrics.LyricsSource.ExternalPrecise
@@ -123,6 +124,7 @@ object Texts {
         Embedded                           -> resources.getString(R.string.label_embedded_lyrics)
         ExternalDecorated, ExternalPrecise -> resources.getString(R.string.label_external_lyrics)
         ManuallyLoaded                     -> resources.getString(R.string.label_loaded)
+        AIGenerated                        -> resources.getString(R.string.label_ai_translation)
         Unknown                            -> "N/A"
     }
 

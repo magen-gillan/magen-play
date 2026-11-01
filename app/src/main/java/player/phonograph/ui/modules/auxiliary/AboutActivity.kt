@@ -6,7 +6,7 @@ import player.phonograph.CURRENT_RELEASE_CHANNEL
 import player.phonograph.CURRENT_TARGET_VARIANT
 import player.phonograph.GITHUB_LINK
 import player.phonograph.R
-import player.phonograph.TRANSLATE_LINk
+import player.phonograph.TRANSLATE_LINK
 import player.phonograph.databinding.ActivityAboutBinding
 import player.phonograph.foundation.content.PackageMetadata
 import player.phonograph.foundation.error.warning
@@ -136,7 +136,7 @@ class AboutActivity : ThemeActivity() {
             ReportIssueDialog().show(supportFragmentManager, "REPORT_ISSUE")
         }
         supportLayout.translate.setOnClickListener {
-            openUrl(TRANSLATE_LINk)
+            openUrl(TRANSLATE_LINK)
         }
 
         specialThanksLayout.aidanFollestadGitHub.setOnClickListener {

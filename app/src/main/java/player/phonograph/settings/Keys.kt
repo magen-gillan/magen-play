@@ -219,6 +219,56 @@ object Keys {
         get() = PrimitiveKey<String>(stringPK("cover_lyrics_align")) { LYRICS_ALIGN_CENTER }
     val dialogLyricsSize
         get() = PrimitiveKey<Float>(floatPK("dialog_lyrics_size")) { 18f }
+
+    //<editor-fold desc="AI Translation">
+    /**
+     * Whether AI translation of lyrics is enabled.
+     * When enabled, after lyrics are loaded from any source, they will be
+     * translated to the user's chosen target language via an LLM API.
+     */
+    val enableAiTranslation
+        get() = PrimitiveKey<Boolean>(booleanPK("enable_ai_translation")) { false }
+
+    /**
+     * AI translation provider. Supported: "openai", "deepseek", "gemini", "openrouter".
+     * All providers are accessed via OpenAI-compatible REST endpoints.
+     */
+    val aiTranslationProvider
+        get() = PrimitiveKey<String>(stringPK("ai_translation_provider")) { "deepseek" }
+
+    /**
+     * API key for the chosen provider.
+     * Stored in DataStore; user enters via dialog.
+     */
+    val aiTranslationApiKey
+        get() = PrimitiveKey<String>(stringPK("ai_translation_api_key")) { "" }
+
+    /**
+     * Target language code for translation (e.g. "ar" for Arabic, "en" for English).
+     */
+    val aiTranslationTargetLang
+        get() = PrimitiveKey<String>(stringPK("ai_translation_target_lang")) { "ar" }
+
+    /**
+     * Model name to use for translation. Provider-dependent.
+     */
+    val aiTranslationModel
+        get() = PrimitiveKey<String>(stringPK("ai_translation_model")) { "deepseek-chat" }
+
+    /**
+     * Custom API endpoint (optional). If empty, provider default is used.
+     * Useful for self-hosted OpenAI-compatible servers (e.g. LM Studio, vLLM).
+     */
+    val aiTranslationApiEndpoint
+        get() = PrimitiveKey<String>(stringPK("ai_translation_api_endpoint")) { "" }
+
+    /**
+     * Whether to translate only when the lyrics' source language differs from target.
+     * If false, always translate.
+     */
+    val aiTranslationAutoDetect
+        get() = PrimitiveKey<Boolean>(booleanPK("ai_translation_auto_detect")) { true }
+    //</editor-fold>
     //</editor-fold>
 
     //<editor-fold desc="Advanced">

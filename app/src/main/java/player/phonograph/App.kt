@@ -47,6 +47,8 @@ import kotlinx.coroutines.launch
 class App : Application(), ImageLoaderFactory {
 
     companion object {
+        private const val TAG_MIGRATION = "PhonographMigration"
+
         @JvmStatic
         lateinit var instance: App
             private set
@@ -112,8 +114,12 @@ class App : Application(), ImageLoaderFactory {
                         player.phonograph.model.SongClickMode.QUEUE_SWITCH_TO_POSITION
                     }
                     settings[migrationKey].edit { true }
+                    Log.i(TAG_MIGRATION, "v2.0.1 queue-fix migration applied successfully")
                 }
-            } catch (_: Exception) { /* ignore — non-fatal */ }
+            } catch (e: Exception) {
+                // Non-fatal but log so we have a diagnostic trail if DataStore is corrupted
+                Log.e(TAG_MIGRATION, "v2.0.1 queue-fix migration failed", e)
+            }
         }
 
         handlerContainer.onCreate()
