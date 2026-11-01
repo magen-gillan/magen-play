@@ -36,8 +36,11 @@ android {
         targetSdk = 36
 
         applicationId = "player.phonograph.plus"
-        versionCode = 21000
-        versionName = "2.1.0"
+        // versionCode 28000 > 27008 (v2.7.8) so this is a proper upgrade.
+        // Built on v2.0.2 codebase + audit fixes + AI translation; signature matches
+        // the existing keystore so it installs as a direct update over any prior version.
+        versionCode = 28000
+        versionName = "2.8.0"
 
         proguardFiles(File("proguard-rules-base.pro"), File("proguard-rules-app.pro"))
 
